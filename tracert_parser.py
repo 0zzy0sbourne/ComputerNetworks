@@ -11,7 +11,11 @@ def parse_tracert_output(output):
             parts = line.split()
             hop = int(parts[0])  # Hop number
             ip_address = parts[1]  # IP address or domain name
-            delay = float(parts[-2].replace("ms", ""))  # Delay in milliseconds
+            try:
+                delay = float(parts[-2].replace("ms", ""))  # Delay in milliseconds
+            except ValueError:
+                # Handle the case where the line contains a hostname instead of a delay
+                delay = None  # Or any other appropriate value
             delay_data[hop] = {"ip_address": ip_address, "delay": delay}
     
     return delay_data
