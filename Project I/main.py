@@ -1,9 +1,12 @@
+import re
 import subprocess
 import matplotlib.pyplot as plt
 import schedule
 import time
 from tracert_parser import parse_tracert_output
+ 
 
+ 
 # Define the locations that we want to test
 # Educational and government institutions often have static IP addresses and stable server locations.
 locations = ["harvard.edu"]
@@ -30,8 +33,17 @@ def run_script():
             except Exception as e:
                 print(f"An error occurred: {e}")
             
-            # Parse the tracert output to extract delay information
-            current_delay_data = parse_tracert_output(tracert_output)
+            # Define a regular expression pattern to match delay lines
+            delay_pattern = r"(\d+)\s+([\w.-]+)\s+([\d.]+)ms"
+            
+            # Search for and extract delay information using the pattern
+            delay_matches = re.findall(delay_pattern, tracert_output)
+            
+            # Initialize the dictionary to store current delay data
+            current_delay_data = {}
+            for match in delay_matches:
+                hop, ip_address, delay = match
+                current_delay_data[int(hop)] = {"ip_address": ip_address, "delay": float(delay)}
 
             # Update the delay data dictionary with the current data
             for hop, data in current_delay_data.items():
