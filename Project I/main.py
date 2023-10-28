@@ -8,12 +8,25 @@ from tracert_parser import parse_tracert_output
 
  
 # Define the locations that we want to test
-# Educational and government institutions often have static IP addresses and stable server locations.
-locations = ["harvard.edu"]
+# Government institutions often have static IP addresses and stable server locations.
 
-def test_request():
-    tracert_output = subprocess.check_output(["tracert", "harvard.edu"]).decode("utf-8")
-    print(tracert_output)
+# locations = [
+#                 "bulgariatravel.org", 
+#                 "visitgreece.gr", 
+#                 "romaniatourism.com", 
+#                 "ukraine.travel", 
+#                 "egypt.travel", 
+#                 "visitrussia.com",
+#                  "italia.it", 
+#                  "france.fr", 
+#                  "spain.info"
+#             ]
+
+locations = ["bulgariatravel.org"]
+
+# def test_request():
+#     tracert_output = subprocess.check_output(["tracert", "harvard.edu"]).decode("utf-8")
+#     print(tracert_output)
 
 def run_script():
     # Initialize dictionaries to store delay data
@@ -61,9 +74,11 @@ def run_script():
     # Display or save the graphs
     plt.show()  # Display the graphs
     # plt.savefig("delay_graph.png")  # Save the graphs to a file
+    
+    print(delay_data)
 
 # Define the times of the day for testing (morning, noon, and evening) with actual dates and times
-times_of_day = ["08:00", "12:00", "18:00", "19:44:50"]
+times_of_day = ["11:57:00",]
 
 def print_message(time):
     print(f"the time is {time}")
