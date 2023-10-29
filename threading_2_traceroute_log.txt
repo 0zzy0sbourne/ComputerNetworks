@@ -1,0 +1,3730 @@
+Executing traceroute for boun.edu.tr...
+Executing traceroute for ku.edu.tr...
+Executing traceroute for sabanciuniv.edu...
+Executing traceroute for uludag.edu.tr...
+Executing traceroute for comu.edu.tr...
+Executing traceroute for metu.edu...
+Executing traceroute for ege.edu.tr...
+Executing traceroute for akdeniz.edu.tr...
+Executing traceroute for kayseri.edu.tr...
+Executing traceroute for gantep.edu.tr...
+Traceroute for comu.edu.tr:
+
+Tracing route to comu.edu.tr [193.255.97.9]
+over a maximum of 30 hops:
+
+  1     *        *        *     Request timed out.
+  2     *        *        *     Request timed out.
+  3     4 ms     3 ms     8 ms  160.75.195.253 
+  4     5 ms     2 ms     4 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     5 ms     8 ms     3 ms  193.255.0.141 
+  7    14 ms    13 ms    14 ms  193.255.97.233 
+  8    15 ms    14 ms    14 ms  193.255.97.46 
+  9    13 ms    13 ms    12 ms  www.comu.edu.tr [193.255.97.9] 
+
+Trace complete.
+Delays for comu.edu.tr in the 1st run: [4, 3, 8, 5, 2, 4, 5, 8, 3, 14, 13, 14, 15, 14, 14, 13, 13, 12]
+Total delay for comu.edu.tr in the 1st run: 164
+Traceroute for comu.edu.tr:
+
+Tracing route to comu.edu.tr [193.255.97.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     8 ms     8 ms  160.75.195.253 
+  4    14 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     2 ms     3 ms  193.255.0.141 
+  7    14 ms    14 ms    13 ms  193.255.97.233 
+  8    16 ms    14 ms    14 ms  193.255.97.46 
+  9    13 ms    13 ms    13 ms  www.comu.edu.tr [193.255.97.9] 
+
+Trace complete.
+Delays for comu.edu.tr in the 2st run: [1, 3, 8, 8, 14, 3, 3, 3, 2, 3, 14, 14, 13, 16, 14, 14, 13, 13, 13]
+Total delay for comu.edu.tr in the 2st run: 172
+Traceroute for comu.edu.tr:
+
+Tracing route to comu.edu.tr [193.255.97.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     2 ms  160.75.195.253 
+  4    47 ms     5 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    15 ms    14 ms    14 ms  193.255.97.233 
+  8    13 ms    13 ms    13 ms  193.255.97.46 
+  9    15 ms    14 ms    14 ms  www.comu.edu.tr [193.255.97.9] 
+
+Trace complete.
+Delays for comu.edu.tr in the 3st run: [1, 2, 3, 2, 47, 5, 2, 3, 3, 3, 15, 14, 14, 13, 13, 13, 15, 14, 14]
+Total delay for comu.edu.tr in the 3st run: 196
+Traceroute for comu.edu.tr:
+
+Tracing route to comu.edu.tr [193.255.97.9]
+over a maximum of 30 hops:
+
+  1     5 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3    30 ms     2 ms     1 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    14 ms    13 ms    13 ms  193.255.97.233 
+  8    14 ms    14 ms    13 ms  193.255.97.46 
+  9    26 ms    29 ms    14 ms  www.comu.edu.tr [193.255.97.9] 
+
+Trace complete.
+Delays for comu.edu.tr in the 4st run: [5, 30, 2, 1, 3, 3, 3, 3, 3, 3, 14, 13, 13, 14, 14, 13, 26, 29, 14]
+Total delay for comu.edu.tr in the 4st run: 206
+Traceroute for ku.edu.tr:
+
+Tracing route to ku.edu.tr [18.197.116.67]
+over a maximum of 30 hops:
+
+  1     *        *        *     Request timed out.
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     5 ms  160.75.195.253 
+  4     3 ms     3 ms    43 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     6 ms     3 ms  193.255.0.141 
+  7    11 ms     9 ms    10 ms  193.140.0.149 
+  8    10 ms    11 ms    11 ms  69.96.154.212.static.turk.net [212.154.96.69] 
+  9    10 ms     9 ms     9 ms  212.156.64.45.static.turktelekom.com.tr [212.156.64.45] 
+ 10    10 ms    10 ms     9 ms  06-ulus-sr14s-t2-2---06-ulus-sr12e-t3-1.statik.turktelekom.com.tr [81.212.222.209] 
+ 11    11 ms    11 ms    11 ms  41-yahyakaptan-t3-1---41-yahyakaptan-t3-2.statik.turktelekom.com.tr [81.212.214.90] 
+ 12     *       12 ms    13 ms  81.212.213.76.static.turktelekom.com.tr [81.212.213.76] 
+ 13     *        *       13 ms  10-balya-sr12-t4-1---10-balikesir-sr12e-t3-3.statik.turktelekom.com.tr [81.212.209.102] 
+ 14     *        *        *     Request timed out.
+ 15   129 ms    23 ms    22 ms  99.83.95.164 
+ 16    25 ms    23 ms    23 ms  150.222.27.54 
+ 17    24 ms    23 ms    22 ms  150.222.27.59 
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ku.edu.tr in the 1st run: [3, 3, 5, 3, 3, 43, 3, 6, 3, 11, 9, 10, 10, 11, 11, 10, 9, 9, 10, 10, 9, 11, 11, 11, 129, 23, 22, 25, 23, 23, 24, 23, 22]
+Total delay for ku.edu.tr in the 1st run: 538
+Traceroute for sabanciuniv.edu:
+
+Tracing route to sabanciuniv.edu [159.20.64.46]
+over a maximum of 30 hops:
+
+  1     *        *        *     Request timed out.
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     6 ms  160.75.195.253 
+  4     5 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     3 ms     5 ms  193.255.0.141 
+  7     3 ms     2 ms     3 ms  201.120.192.193.static.turk.net [193.192.120.201] 
+  8     7 ms     6 ms     7 ms  istn-gyrt-tnp-Gi0-3-280.turk.net [212.154.122.41] 
+  9     6 ms     5 ms     6 ms  esks-mrkz-tto-Gi0-0-1-298.turk.net [212.154.122.242] 
+ 10     4 ms     3 ms     3 ms  34-acibadem-xrs-t2-1---34-acibadem-sr12e-t3-8.statik.turktelekom.com.tr [81.212.216.50] 
+ 11     9 ms    10 ms    10 ms  06-ulus-sr14s-t2-1---34-acibadem-xrs-t2-1.statik.turktelekom.com.tr [195.175.166.207] 
+ 12    11 ms    11 ms    13 ms  212.156.99.254.static.turktelekom.com.tr [212.156.99.254] 
+ 13    14 ms    13 ms    13 ms  host-85-29-49-14.reverse.superonline.net [85.29.49.14] 
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for sabanciuniv.edu in the 1st run: [2, 3, 6, 5, 3, 3, 4, 3, 5, 3, 2, 3, 7, 6, 7, 6, 5, 6, 4, 3, 3, 9, 10, 10, 11, 11, 13, 14, 13, 13]
+Total delay for sabanciuniv.edu in the 1st run: 193
+Traceroute for comu.edu.tr:
+
+Tracing route to comu.edu.tr [193.255.97.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        3 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3    12 ms     3 ms     1 ms  160.75.195.253 
+  4     2 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    15 ms    13 ms    27 ms  193.255.97.233 
+  8    14 ms    14 ms    13 ms  193.255.97.46 
+  9    14 ms    14 ms    13 ms  www.comu.edu.tr [193.255.97.9] 
+
+Trace complete.
+Delays for comu.edu.tr in the 5st run: [1, 12, 3, 1, 2, 2, 2, 3, 3, 3, 15, 13, 27, 14, 14, 13, 14, 14, 13]
+Total delay for comu.edu.tr in the 5st run: 169
+Traceroute for ege.edu.tr:
+
+Tracing route to ege.edu.tr [155.223.2.2]
+over a maximum of 30 hops:
+
+  1     *        3 ms     *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     3 ms  160.75.195.253 
+  4    51 ms     3 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     4 ms     3 ms  193.255.0.141 
+  7    12 ms    11 ms     *     194.27.0.18 
+  8    10 ms    10 ms    10 ms  ulaknet-ege.ulak.net.tr [194.27.0.6] 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ege.edu.tr in the 1st run: [3, 2, 3, 51, 3, 2, 4, 4, 3, 12, 11, 10, 10, 10]
+Total delay for ege.edu.tr in the 1st run: 128
+Traceroute for metu.edu:
+
+Tracing route to metu.edu [144.122.145.153]
+over a maximum of 30 hops:
+
+  1     *        *        *     Request timed out.
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     8 ms  160.75.195.253 
+  4     4 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     5 ms     3 ms     5 ms  193.255.0.141 
+  7    11 ms    11 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9    11 ms    11 ms    10 ms  144.122.1.18 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Traceroute for kayseri.edu.tr:
+
+Tracing route to kayseri.edu.tr [95.183.224.77]
+over a maximum of 30 hops:
+
+  1     *        *        *     Request timed out.
+  2     *        *        *     Request timed out.
+  3     2 ms     7 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms    44 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     6 ms     4 ms     5 ms  193.255.0.141 
+  7    10 ms    11 ms    12 ms  193.140.0.149 
+  8    19 ms    19 ms    19 ms  193.140.10.246 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for metu.edu in the 1st run: [3, 2, 8, 4, 3, 3, 5, 3, 5, 11, 11, 10, 11, 11, 10]
+Total delay for metu.edu in the 1st run: 100
+Delays for kayseri.edu.tr in the 1st run: [2, 7, 2, 3, 3, 44, 6, 4, 5, 10, 11, 12, 19, 19, 19]
+Total delay for kayseri.edu.tr in the 1st run: 166
+Traceroute for akdeniz.edu.tr:
+
+Tracing route to akdeniz.edu.tr [194.27.186.103]
+over a maximum of 30 hops:
+
+  1     *        *        *     Request timed out.
+  2     *        *        *     Request timed out.
+  3     4 ms     4 ms     6 ms  160.75.195.253 
+  4     5 ms     2 ms     4 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     6 ms     3 ms  193.255.0.141 
+  7    11 ms    12 ms    11 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Traceroute for uludag.edu.tr:
+
+Tracing route to uludag.edu.tr [193.140.245.9]
+over a maximum of 30 hops:
+
+  1     *        *        *     Request timed out.
+  2     *        *        *     Request timed out.
+  3     3 ms     7 ms     3 ms  160.75.195.253 
+  4     3 ms    46 ms     5 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     5 ms     7 ms     4 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.255.0.146 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for akdeniz.edu.tr in the 1st run: [4, 4, 6, 5, 2, 4, 4, 6, 3, 11, 12, 11]
+Total delay for akdeniz.edu.tr in the 1st run: 72
+Delays for uludag.edu.tr in the 1st run: [3, 7, 3, 3, 46, 5, 5, 7, 4, 10, 10, 10]
+Total delay for uludag.edu.tr in the 1st run: 113
+Traceroute for gantep.edu.tr:
+
+Tracing route to gantep.edu.tr [193.140.136.16]
+over a maximum of 30 hops:
+
+  1     2 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     3 ms  160.75.195.253 
+  4    36 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     4 ms     4 ms  193.255.0.141 
+  7    11 ms    10 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for gantep.edu.tr in the 1st run: [2, 2, 3, 3, 36, 2, 2, 3, 4, 4, 11, 10, 10]
+Total delay for gantep.edu.tr in the 1st run: 92
+Traceroute for boun.edu.tr:
+
+Tracing route to boun.edu.tr [193.140.192.150]
+over a maximum of 30 hops:
+
+  1     *        *        3 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     2 ms  160.75.195.253 
+  4     4 ms     7 ms     4 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for boun.edu.tr in the 1st run: [3, 3, 2, 4, 7, 4, 3, 3, 3]
+Total delay for boun.edu.tr in the 1st run: 32
+Traceroute for comu.edu.tr:
+
+Tracing route to comu.edu.tr [193.255.97.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     6 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    14 ms    13 ms    13 ms  193.255.97.233 
+  8    14 ms    14 ms    14 ms  193.255.97.46 
+  9    14 ms    14 ms    14 ms  www.comu.edu.tr [193.255.97.9] 
+
+Trace complete.
+Delays for comu.edu.tr in the 6st run: [1, 3, 2, 2, 3, 6, 3, 3, 3, 3, 14, 13, 13, 14, 14, 14, 14, 14, 14]
+Total delay for comu.edu.tr in the 6st run: 153
+Traceroute for comu.edu.tr:
+
+Tracing route to comu.edu.tr [193.255.97.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3    90 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     3 ms     3 ms  193.255.0.141 
+  7    14 ms    13 ms    13 ms  193.255.97.233 
+  8    14 ms    14 ms    14 ms  193.255.97.46 
+  9    13 ms    13 ms    13 ms  www.comu.edu.tr [193.255.97.9] 
+
+Trace complete.
+Delays for comu.edu.tr in the 7st run: [1, 90, 2, 2, 3, 2, 2, 4, 3, 3, 14, 13, 13, 14, 14, 14, 13, 13, 13]
+Total delay for comu.edu.tr in the 7st run: 233
+Traceroute for comu.edu.tr:
+
+Tracing route to comu.edu.tr [193.255.97.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     3 ms  160.75.195.253 
+  4     2 ms     2 ms     1 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    25 ms    13 ms    13 ms  193.255.97.233 
+  8    14 ms    13 ms    13 ms  193.255.97.46 
+  9    14 ms    15 ms    13 ms  www.comu.edu.tr [193.255.97.9] 
+
+Trace complete.
+Delays for comu.edu.tr in the 8st run: [1, 3, 3, 3, 2, 2, 1, 3, 3, 3, 25, 13, 13, 14, 13, 13, 14, 15, 13]
+Total delay for comu.edu.tr in the 8st run: 157
+Traceroute for ku.edu.tr:
+
+Tracing route to ku.edu.tr [18.197.116.67]
+over a maximum of 30 hops:
+
+  1     2 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     2 ms  160.75.195.253 
+  4     3 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     9 ms    10 ms     9 ms  193.140.0.149 
+  8    10 ms    10 ms    10 ms  69.96.154.212.static.turk.net [212.154.96.69] 
+  9    10 ms    10 ms    10 ms  212.156.64.45.static.turktelekom.com.tr [212.156.64.45] 
+ 10    10 ms    10 ms    10 ms  06-ulus-sr14s-t2-2---06-ulus-sr12e-t3-1.statik.turktelekom.com.tr [81.212.222.209] 
+ 11    13 ms    12 ms    12 ms  41-yahyakaptan-t3-1---41-yahyakaptan-t3-2.statik.turktelekom.com.tr [81.212.214.90] 
+ 12     *        *        *     Request timed out.
+ 13     *       14 ms    12 ms  10-balya-sr12-t4-1---10-balikesir-sr12e-t3-3.statik.turktelekom.com.tr [81.212.209.102] 
+ 14     *        *        *     Request timed out.
+ 15    22 ms    23 ms    32 ms  99.83.95.164 
+ 16    24 ms    24 ms    23 ms  150.222.27.54 
+ 17    23 ms    23 ms    22 ms  150.222.27.59 
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ku.edu.tr in the 2st run: [2, 3, 3, 2, 3, 2, 2, 3, 3, 3, 9, 10, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 13, 12, 12, 22, 23, 32, 24, 24, 23, 23, 23, 22]
+Total delay for ku.edu.tr in the 2st run: 397
+Traceroute for sabanciuniv.edu:
+
+Tracing route to sabanciuniv.edu [159.20.64.46]
+over a maximum of 30 hops:
+
+  1   106 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     7 ms     3 ms  160.75.195.253 
+  4     3 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     4 ms     3 ms  193.255.0.141 
+  7    13 ms     3 ms     3 ms  201.120.192.193.static.turk.net [193.192.120.201] 
+  8     6 ms     7 ms     7 ms  istn-gyrt-tnp-Gi0-3-280.turk.net [212.154.122.41] 
+  9     7 ms     7 ms     6 ms  esks-mrkz-tto-Gi0-0-1-298.turk.net [212.154.122.242] 
+ 10     5 ms     4 ms     5 ms  34-acibadem-xrs-t2-1---34-acibadem-sr12e-t3-8.statik.turktelekom.com.tr [81.212.216.50] 
+ 11    11 ms    16 ms    10 ms  06-ulus-sr14s-t2-1---34-acibadem-xrs-t2-1.statik.turktelekom.com.tr [195.175.166.207] 
+ 12    11 ms    12 ms    12 ms  212.156.99.254.static.turktelekom.com.tr [212.156.99.254] 
+ 13    14 ms    13 ms    13 ms  host-85-29-49-14.reverse.superonline.net [85.29.49.14] 
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for sabanciuniv.edu in the 2st run: [106, 2, 7, 3, 3, 2, 2, 3, 4, 3, 13, 3, 3, 6, 7, 7, 7, 7, 6, 5, 4, 5, 11, 16, 10, 11, 12, 12, 14, 13, 13]
+Total delay for sabanciuniv.edu in the 2st run: 320
+Traceroute for comu.edu.tr:
+
+Tracing route to comu.edu.tr [193.255.97.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3    64 ms     2 ms     2 ms  160.75.195.253 
+  4     4 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     3 ms     4 ms  193.255.0.141 
+  7    13 ms    13 ms    12 ms  193.255.97.233 
+  8    14 ms    14 ms    15 ms  193.255.97.46 
+  9    14 ms    13 ms    13 ms  www.comu.edu.tr [193.255.97.9] 
+
+Trace complete.
+Delays for comu.edu.tr in the 9st run: [1, 64, 2, 2, 4, 3, 3, 4, 3, 4, 13, 13, 12, 14, 14, 15, 14, 13, 13]
+Total delay for comu.edu.tr in the 9st run: 211
+Traceroute for comu.edu.tr:
+
+Tracing route to comu.edu.tr [193.255.97.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     4 ms     4 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     3 ms     2 ms  193.255.0.141 
+  7    14 ms    13 ms    14 ms  193.255.97.233 
+  8    14 ms    14 ms    14 ms  193.255.97.46 
+  9    14 ms    14 ms    26 ms  www.comu.edu.tr [193.255.97.9] 
+
+Trace complete.
+Delays for comu.edu.tr in the 10st run: [1, 3, 4, 4, 3, 3, 3, 4, 3, 2, 14, 13, 14, 14, 14, 14, 14, 14, 26]
+Total delay for comu.edu.tr in the 10st run: 167
+Minimum Delay for comu.edu.tr: 153 ms
+Maximum Delay for comu.edu.tr: 233 ms
+Average Delay for comu.edu.tr: 182.8 ms
+Traceroute for ege.edu.tr:
+
+Tracing route to ege.edu.tr [155.223.2.2]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     *       11 ms     *     194.27.0.18 
+  8   277 ms   116 ms    11 ms  ulaknet-ege.ulak.net.tr [194.27.0.6] 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ege.edu.tr in the 2st run: [1, 3, 3, 2, 3, 3, 3, 3, 3, 3, 277, 116, 11]
+Total delay for ege.edu.tr in the 2st run: 431
+Traceroute for metu.edu:
+
+Tracing route to metu.edu [144.122.145.153]
+over a maximum of 30 hops:
+
+  1     *        2 ms     *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     5 ms  160.75.195.253 
+  4     3 ms     3 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     4 ms     4 ms  193.255.0.141 
+  7    10 ms    10 ms    13 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     9 ms     9 ms     9 ms  144.122.1.18 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Traceroute for kayseri.edu.tr:
+
+Tracing route to kayseri.edu.tr [95.183.224.77]
+over a maximum of 30 hops:
+
+  1    41 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     2 ms  160.75.195.253 
+  4     3 ms     2 ms     4 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     5 ms     4 ms     3 ms  193.255.0.141 
+  7    11 ms     9 ms    12 ms  193.140.0.149 
+  8    20 ms    19 ms    19 ms  193.140.10.246 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for metu.edu in the 2st run: [3, 2, 5, 3, 3, 2, 4, 4, 4, 10, 10, 13, 9, 9, 9]
+Total delay for metu.edu in the 2st run: 90
+Delays for kayseri.edu.tr in the 2st run: [41, 3, 3, 2, 3, 2, 4, 5, 4, 3, 11, 9, 12, 20, 19, 19]
+Total delay for kayseri.edu.tr in the 2st run: 160
+Traceroute for uludag.edu.tr:
+
+Tracing route to uludag.edu.tr [193.140.245.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        3 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     7 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    11 ms    10 ms    10 ms  193.255.0.146 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for uludag.edu.tr in the 2st run: [1, 7, 3, 3, 3, 3, 3, 3, 3, 3, 11, 10, 10]
+Total delay for uludag.edu.tr in the 2st run: 63
+Traceroute for gantep.edu.tr:
+
+Tracing route to gantep.edu.tr [193.140.136.16]
+over a maximum of 30 hops:
+
+  1     *        *        *     Request timed out.
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     3 ms     3 ms  193.255.0.141 
+  7   151 ms    11 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for gantep.edu.tr in the 2st run: [2, 2, 2, 3, 3, 2, 4, 3, 3, 151, 11, 10]
+Total delay for gantep.edu.tr in the 2st run: 196
+Traceroute for akdeniz.edu.tr:
+
+Tracing route to akdeniz.edu.tr [194.27.186.103]
+over a maximum of 30 hops:
+
+  1     *        *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     3 ms  160.75.195.253 
+  4     4 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    11 ms    53 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for akdeniz.edu.tr in the 2st run: [3, 3, 3, 4, 3, 3, 3, 3, 3, 11, 53, 10]
+Total delay for akdeniz.edu.tr in the 2st run: 102
+Traceroute for boun.edu.tr:
+
+Tracing route to boun.edu.tr [193.140.192.150]
+over a maximum of 30 hops:
+
+  1     *        2 ms     *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     8 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     2 ms     2 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for boun.edu.tr in the 2st run: [2, 3, 8, 3, 3, 3, 3, 2, 2]
+Total delay for boun.edu.tr in the 2st run: 29
+Traceroute for ku.edu.tr:
+
+Tracing route to ku.edu.tr [18.197.116.67]
+over a maximum of 30 hops:
+
+  1     2 ms     *        1 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     1 ms  160.75.195.253 
+  4     3 ms     3 ms     4 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.140.0.149 
+  8    10 ms    10 ms    10 ms  69.96.154.212.static.turk.net [212.154.96.69] 
+  9    10 ms    10 ms     9 ms  212.156.64.45.static.turktelekom.com.tr [212.156.64.45] 
+ 10    10 ms    10 ms    10 ms  06-ulus-sr14s-t2-2---06-ulus-sr12e-t3-1.statik.turktelekom.com.tr [81.212.222.209] 
+ 11    12 ms    15 ms    13 ms  41-yahyakaptan-t3-1---41-yahyakaptan-t3-2.statik.turktelekom.com.tr [81.212.214.90] 
+ 12     *       12 ms    12 ms  81.212.213.76.static.turktelekom.com.tr [81.212.213.76] 
+ 13    12 ms    12 ms    14 ms  10-balya-sr12-t4-1---10-balikesir-sr12e-t3-3.statik.turktelekom.com.tr [81.212.209.102] 
+ 14     *        *        *     Request timed out.
+ 15    25 ms    22 ms    24 ms  99.83.95.164 
+ 16    25 ms    26 ms    36 ms  150.222.27.54 
+ 17    23 ms    22 ms    22 ms  150.222.27.59 
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ku.edu.tr in the 3st run: [2, 2, 2, 1, 3, 3, 4, 3, 3, 3, 10, 10, 10, 10, 10, 10, 10, 10, 9, 10, 10, 10, 12, 15, 13, 12, 12, 14, 25, 22, 24, 25, 26, 36, 23, 22, 22]
+Total delay for ku.edu.tr in the 3st run: 448
+Traceroute for sabanciuniv.edu:
+
+Tracing route to sabanciuniv.edu [159.20.64.46]
+over a maximum of 30 hops:
+
+  1     1 ms     *        4 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     2 ms  160.75.195.253 
+  4     3 ms     2 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     3 ms     3 ms  193.255.0.141 
+  7     3 ms     3 ms     3 ms  201.120.192.193.static.turk.net [193.192.120.201] 
+  8     7 ms     8 ms     6 ms  istn-gyrt-tnp-Gi0-3-280.turk.net [212.154.122.41] 
+  9     7 ms     7 ms     5 ms  esks-mrkz-tto-Gi0-0-1-298.turk.net [212.154.122.242] 
+ 10     4 ms     4 ms     4 ms  34-acibadem-xrs-t2-1---34-acibadem-sr12e-t3-8.statik.turktelekom.com.tr [81.212.216.50] 
+ 11    33 ms    11 ms     *     06-ulus-sr14s-t2-1---34-acibadem-xrs-t2-1.statik.turktelekom.com.tr [195.175.166.207] 
+ 12    11 ms    11 ms    14 ms  212.156.99.254.static.turktelekom.com.tr [212.156.99.254] 
+ 13    14 ms    13 ms    12 ms  host-85-29-49-14.reverse.superonline.net [85.29.49.14] 
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for sabanciuniv.edu in the 3st run: [1, 2, 3, 2, 3, 2, 3, 4, 3, 3, 3, 3, 3, 7, 8, 6, 7, 7, 5, 4, 4, 4, 33, 11, 11, 11, 14, 14, 13, 12]
+Total delay for sabanciuniv.edu in the 3st run: 206
+Traceroute for ege.edu.tr:
+
+Tracing route to ege.edu.tr [155.223.2.2]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     6 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     *       13 ms     *     194.27.0.18 
+  8    10 ms    10 ms    10 ms  ulaknet-ege.ulak.net.tr [194.27.0.6] 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ege.edu.tr in the 3st run: [1, 6, 2, 2, 3, 3, 3, 3, 3, 3, 10, 10, 10]
+Total delay for ege.edu.tr in the 3st run: 59
+Traceroute for metu.edu:
+
+Tracing route to metu.edu [144.122.145.153]
+over a maximum of 30 hops:
+
+  1     2 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     6 ms     3 ms     4 ms  160.75.195.253 
+  4     3 ms     3 ms     4 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     2 ms     2 ms  193.255.0.141 
+  7    11 ms    11 ms    11 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     9 ms     9 ms     9 ms  144.122.1.18 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Traceroute for kayseri.edu.tr:
+
+Tracing route to kayseri.edu.tr [95.183.224.77]
+over a maximum of 30 hops:
+
+  1     *        2 ms     *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     6 ms     2 ms     3 ms  160.75.195.253 
+  4     3 ms     2 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     2 ms     2 ms  193.255.0.141 
+  7    11 ms    12 ms    11 ms  193.140.0.149 
+  8    19 ms    19 ms    19 ms  193.140.10.246 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for metu.edu in the 3st run: [2, 6, 3, 4, 3, 3, 4, 3, 2, 2, 11, 11, 11, 9, 9, 9]
+Total delay for metu.edu in the 3st run: 92
+Delays for kayseri.edu.tr in the 3st run: [6, 2, 3, 3, 2, 3, 3, 2, 2, 11, 12, 11, 19, 19, 19]
+Total delay for kayseri.edu.tr in the 3st run: 117
+Traceroute for uludag.edu.tr:
+
+Tracing route to uludag.edu.tr [193.140.245.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     1 ms     1 ms     1 ms  160.75.195.253 
+  4    41 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms    11 ms  193.255.0.146 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for uludag.edu.tr in the 3st run: [1, 1, 1, 1, 41, 3, 3, 3, 3, 3, 10, 10, 11]
+Total delay for uludag.edu.tr in the 3st run: 91
+Traceroute for gantep.edu.tr:
+
+Tracing route to gantep.edu.tr [193.140.136.16]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     5 ms  193.255.0.141 
+  7    16 ms    15 ms    11 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for gantep.edu.tr in the 3st run: [1, 2, 2, 2, 3, 3, 3, 3, 3, 5, 16, 15, 11]
+Total delay for gantep.edu.tr in the 3st run: 69
+Traceroute for akdeniz.edu.tr:
+
+Tracing route to akdeniz.edu.tr [194.27.186.103]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3    19 ms     3 ms     2 ms  160.75.195.253 
+  4     3 ms     4 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms    12 ms     4 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for akdeniz.edu.tr in the 3st run: [1, 19, 3, 2, 3, 4, 3, 3, 12, 4, 10, 10, 10]
+Total delay for akdeniz.edu.tr in the 3st run: 84
+Traceroute for boun.edu.tr:
+
+Tracing route to boun.edu.tr [193.140.192.150]
+over a maximum of 30 hops:
+
+  1     2 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     2 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for boun.edu.tr in the 3st run: [2, 3, 3, 3, 3, 3, 3, 3, 3, 2]
+Total delay for boun.edu.tr in the 3st run: 28
+Traceroute for ku.edu.tr:
+
+Tracing route to ku.edu.tr [18.197.116.67]
+over a maximum of 30 hops:
+
+  1     1 ms     *        1 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     2 ms     2 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     9 ms    24 ms    13 ms  193.140.0.149 
+  8     9 ms     9 ms     9 ms  69.96.154.212.static.turk.net [212.154.96.69] 
+  9     9 ms     9 ms     9 ms  212.156.64.45.static.turktelekom.com.tr [212.156.64.45] 
+ 10     9 ms     8 ms     9 ms  06-ulus-sr14s-t2-2---06-ulus-sr12e-t3-1.statik.turktelekom.com.tr [81.212.222.209] 
+ 11    27 ms    30 ms    11 ms  41-yahyakaptan-t3-1---41-yahyakaptan-t3-2.statik.turktelekom.com.tr [81.212.214.90] 
+ 12     *       11 ms    11 ms  81.212.213.76.static.turktelekom.com.tr [81.212.213.76] 
+ 13    21 ms    14 ms    15 ms  10-balya-sr12-t4-1---10-balikesir-sr12e-t3-3.statik.turktelekom.com.tr [81.212.209.102] 
+ 14     *        *        *     Request timed out.
+ 15    26 ms    22 ms    22 ms  99.83.95.164 
+ 16    30 ms    24 ms    26 ms  150.222.27.54 
+ 17    23 ms    22 ms    22 ms  150.222.27.59 
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ku.edu.tr in the 4st run: [1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 9, 24, 13, 9, 9, 9, 9, 9, 9, 9, 8, 9, 27, 30, 11, 21, 14, 15, 26, 22, 22, 30, 24, 26, 23, 22, 22]
+Total delay for ku.edu.tr in the 4st run: 484
+Traceroute for sabanciuniv.edu:
+
+Tracing route to sabanciuniv.edu [159.20.64.46]
+over a maximum of 30 hops:
+
+  1     1 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     2 ms     2 ms     2 ms  201.120.192.193.static.turk.net [193.192.120.201] 
+  8     7 ms     5 ms     7 ms  istn-gyrt-tnp-Gi0-3-280.turk.net [212.154.122.41] 
+  9    15 ms     8 ms    14 ms  esks-mrkz-tto-Gi0-0-1-298.turk.net [212.154.122.242] 
+ 10    18 ms     5 ms     5 ms  34-acibadem-xrs-t2-1---34-acibadem-sr12e-t3-8.statik.turktelekom.com.tr [81.212.216.50] 
+ 11    17 ms    14 ms    13 ms  06-ulus-sr14s-t2-1---34-acibadem-xrs-t2-1.statik.turktelekom.com.tr [195.175.166.207] 
+ 12    67 ms   103 ms    65 ms  212.156.99.254.static.turktelekom.com.tr [212.156.99.254] 
+ 13    14 ms    14 ms    15 ms  host-85-29-49-14.reverse.superonline.net [85.29.49.14] 
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for sabanciuniv.edu in the 4st run: [1, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 7, 5, 7, 15, 8, 14, 18, 5, 5, 17, 14, 13, 67, 103, 65, 14, 14, 15]
+Total delay for sabanciuniv.edu in the 4st run: 439
+Traceroute for ku.edu.tr:
+
+Tracing route to ku.edu.tr [18.197.116.67]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     5 ms     4 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     4 ms     3 ms  193.255.0.141 
+  7    10 ms    11 ms    10 ms  193.140.0.149 
+  8     9 ms     9 ms     9 ms  69.96.154.212.static.turk.net [212.154.96.69] 
+  9    12 ms    11 ms    10 ms  212.156.64.45.static.turktelekom.com.tr [212.156.64.45] 
+ 10    10 ms    19 ms    14 ms  06-ulus-sr14s-t2-2---06-ulus-sr12e-t3-1.statik.turktelekom.com.tr [81.212.222.209] 
+ 11    12 ms    13 ms    12 ms  41-yahyakaptan-t3-1---41-yahyakaptan-t3-2.statik.turktelekom.com.tr [81.212.214.90] 
+ 12     *       12 ms    12 ms  81.212.213.76.static.turktelekom.com.tr [81.212.213.76] 
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15    22 ms    32 ms    43 ms  99.83.95.164 
+ 16    22 ms    24 ms    27 ms  150.222.27.54 
+ 17    23 ms    23 ms    22 ms  150.222.27.59 
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ku.edu.tr in the 5st run: [1, 2, 2, 2, 5, 4, 3, 3, 4, 3, 10, 11, 10, 9, 9, 9, 12, 11, 10, 10, 19, 14, 12, 13, 12, 22, 32, 43, 22, 24, 27, 23, 23, 22]
+Total delay for ku.edu.tr in the 5st run: 438
+Traceroute for ege.edu.tr:
+
+Tracing route to ege.edu.tr [155.223.2.2]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     4 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8    49 ms    17 ms    42 ms  ulaknet-ege.ulak.net.tr [194.27.0.6] 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ege.edu.tr in the 4st run: [1, 2, 2, 2, 3, 3, 3, 3, 3, 4, 49, 17, 42]
+Total delay for ege.edu.tr in the 4st run: 134
+Traceroute for metu.edu:
+
+Tracing route to metu.edu [144.122.145.153]
+over a maximum of 30 hops:
+
+  1     1 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     2 ms     2 ms     2 ms  193.255.0.141 
+  7    15 ms    10 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9    17 ms    20 ms    10 ms  144.122.1.18 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Traceroute for kayseri.edu.tr:
+
+Tracing route to kayseri.edu.tr [95.183.224.77]
+over a maximum of 30 hops:
+
+  1     *      165 ms     *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     2 ms     2 ms  193.255.0.141 
+  7    18 ms    10 ms    12 ms  193.140.0.149 
+  8    29 ms    19 ms    18 ms  193.140.10.246 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for metu.edu in the 4st run: [1, 2, 2, 2, 3, 3, 3, 2, 2, 2, 15, 10, 10, 17, 20, 10]
+Total delay for metu.edu in the 4st run: 104
+Delays for kayseri.edu.tr in the 4st run: [2, 2, 2, 3, 3, 2, 3, 2, 2, 18, 10, 12, 29, 19, 18]
+Total delay for kayseri.edu.tr in the 4st run: 127
+Traceroute for uludag.edu.tr:
+
+Tracing route to uludag.edu.tr [193.140.245.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    11 ms    11 ms    10 ms  193.255.0.146 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for uludag.edu.tr in the 4st run: [1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 11, 11, 10]
+Total delay for uludag.edu.tr in the 4st run: 60
+Traceroute for sabanciuniv.edu:
+
+Tracing route to sabanciuniv.edu [159.20.64.46]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     3 ms  160.75.195.253 
+  4     4 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     4 ms     3 ms  193.255.0.141 
+  7     3 ms    44 ms     3 ms  201.120.192.193.static.turk.net [193.192.120.201] 
+  8    47 ms     8 ms     6 ms  istn-gyrt-tnp-Gi0-3-280.turk.net [212.154.122.41] 
+  9     6 ms     6 ms    49 ms  esks-mrkz-tto-Gi0-0-1-298.turk.net [212.154.122.242] 
+ 10   147 ms    46 ms     *     34-acibadem-xrs-t2-1---34-acibadem-sr12e-t3-8.statik.turktelekom.com.tr [81.212.216.50] 
+ 11    13 ms    13 ms    13 ms  06-ulus-sr14s-t2-1---34-acibadem-xrs-t2-1.statik.turktelekom.com.tr [195.175.166.207] 
+ 12    16 ms    19 ms    17 ms  212.156.99.254.static.turktelekom.com.tr [212.156.99.254] 
+ 13    15 ms    14 ms    13 ms  host-85-29-49-14.reverse.superonline.net [85.29.49.14] 
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for sabanciuniv.edu in the 5st run: [1, 3, 2, 3, 4, 3, 3, 4, 4, 3, 3, 44, 3, 47, 8, 6, 6, 6, 49, 147, 46, 13, 13, 13, 16, 19, 17, 15, 14, 13]
+Total delay for sabanciuniv.edu in the 5st run: 528
+Traceroute for gantep.edu.tr:
+
+Tracing route to gantep.edu.tr [193.140.136.16]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     2 ms    11 ms     7 ms  193.255.0.141 
+  7     9 ms    13 ms    54 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for gantep.edu.tr in the 4st run: [1, 3, 3, 3, 3, 3, 3, 2, 11, 7, 9, 13, 54]
+Total delay for gantep.edu.tr in the 4st run: 115
+Traceroute for akdeniz.edu.tr:
+
+Tracing route to akdeniz.edu.tr [194.27.186.103]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4    21 ms    22 ms    20 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     2 ms     2 ms     3 ms  193.255.0.141 
+  7    22 ms   123 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for akdeniz.edu.tr in the 4st run: [1, 2, 2, 2, 21, 22, 20, 2, 2, 3, 22, 123, 10]
+Total delay for akdeniz.edu.tr in the 4st run: 232
+Traceroute for boun.edu.tr:
+
+Tracing route to boun.edu.tr [193.140.192.150]
+over a maximum of 30 hops:
+
+  1     2 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     3 ms  160.75.195.253 
+  4    87 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     4 ms     4 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for boun.edu.tr in the 4st run: [2, 2, 3, 3, 87, 3, 3, 4, 4, 4]
+Total delay for boun.edu.tr in the 4st run: 115
+Traceroute for ku.edu.tr:
+
+Tracing route to ku.edu.tr [18.197.116.67]
+over a maximum of 30 hops:
+
+  1     1 ms     *        4 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     9 ms     9 ms     9 ms  193.140.0.149 
+  8    10 ms    10 ms    11 ms  69.96.154.212.static.turk.net [212.154.96.69] 
+  9    28 ms    25 ms    24 ms  212.156.64.45.static.turktelekom.com.tr [212.156.64.45] 
+ 10    10 ms    10 ms    11 ms  06-ulus-sr14s-t2-2---06-ulus-sr12e-t3-1.statik.turktelekom.com.tr [81.212.222.209] 
+ 11    12 ms    12 ms    12 ms  41-yahyakaptan-t3-1---41-yahyakaptan-t3-2.statik.turktelekom.com.tr [81.212.214.90] 
+ 12     *       44 ms    12 ms  81.212.213.76.static.turktelekom.com.tr [81.212.213.76] 
+ 13     *        *       13 ms  10-balya-sr12-t4-1---10-balikesir-sr12e-t3-3.statik.turktelekom.com.tr [81.212.209.102] 
+ 14     *        *        *     Request timed out.
+ 15    55 ms    23 ms    22 ms  99.83.95.164 
+ 16    23 ms    23 ms    23 ms  150.222.27.54 
+ 17    26 ms    22 ms    22 ms  150.222.27.59 
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ku.edu.tr in the 6st run: [1, 3, 3, 2, 3, 3, 3, 3, 3, 3, 9, 9, 9, 10, 10, 11, 28, 25, 24, 10, 10, 11, 12, 12, 12, 55, 23, 22, 23, 23, 23, 26, 22, 22]
+Total delay for ku.edu.tr in the 6st run: 468
+Traceroute for sabanciuniv.edu:
+
+Tracing route to sabanciuniv.edu [159.20.64.46]
+over a maximum of 30 hops:
+
+  1     2 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4    53 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     2 ms     2 ms  193.255.0.141 
+  7     7 ms     4 ms     3 ms  201.120.192.193.static.turk.net [193.192.120.201] 
+  8     8 ms     6 ms    24 ms  istn-gyrt-tnp-Gi0-3-280.turk.net [212.154.122.41] 
+  9     7 ms     6 ms     6 ms  esks-mrkz-tto-Gi0-0-1-298.turk.net [212.154.122.242] 
+ 10     5 ms     4 ms     6 ms  34-acibadem-xrs-t2-1---34-acibadem-sr12e-t3-8.statik.turktelekom.com.tr [81.212.216.50] 
+ 11    13 ms    13 ms    13 ms  06-ulus-sr14s-t2-1---34-acibadem-xrs-t2-1.statik.turktelekom.com.tr [195.175.166.207] 
+ 12    19 ms    13 ms    12 ms  212.156.99.254.static.turktelekom.com.tr [212.156.99.254] 
+ 13    15 ms    14 ms    15 ms  host-85-29-49-14.reverse.superonline.net [85.29.49.14] 
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for sabanciuniv.edu in the 6st run: [2, 2, 2, 2, 53, 3, 3, 3, 2, 2, 7, 4, 3, 8, 6, 24, 7, 6, 6, 5, 4, 6, 13, 13, 13, 19, 13, 12, 15, 14, 15]
+Total delay for sabanciuniv.edu in the 6st run: 287
+Traceroute for ege.edu.tr:
+
+Tracing route to ege.edu.tr [155.223.2.2]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     9 ms    21 ms    20 ms  160.75.195.253 
+  4     3 ms     3 ms     4 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8    11 ms    11 ms    10 ms  ulaknet-ege.ulak.net.tr [194.27.0.6] 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ege.edu.tr in the 5st run: [1, 9, 21, 20, 3, 3, 4, 3, 3, 3, 11, 11, 10]
+Total delay for ege.edu.tr in the 5st run: 102
+Traceroute for kayseri.edu.tr:
+
+Tracing route to kayseri.edu.tr [95.183.224.77]
+over a maximum of 30 hops:
+
+  1     *        4 ms     *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     2 ms  160.75.195.253 
+  4     3 ms     2 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     2 ms     5 ms     5 ms  193.255.0.141 
+  7    10 ms    11 ms     9 ms  193.140.0.149 
+  8    19 ms    19 ms    26 ms  193.140.10.246 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Traceroute for metu.edu:
+
+Tracing route to metu.edu [144.122.145.153]
+over a maximum of 30 hops:
+
+  1     1 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     4 ms     3 ms  160.75.195.253 
+  4     3 ms     4 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     6 ms     3 ms  193.255.0.141 
+  7    10 ms     9 ms     9 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9    12 ms    11 ms     9 ms  144.122.1.18 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for kayseri.edu.tr in the 5st run: [3, 3, 2, 3, 2, 3, 2, 5, 5, 10, 11, 9, 19, 19, 26]
+Total delay for kayseri.edu.tr in the 5st run: 122
+Delays for metu.edu in the 5st run: [1, 3, 4, 3, 3, 4, 2, 3, 6, 3, 10, 9, 9, 12, 11, 9]
+Total delay for metu.edu in the 5st run: 92
+Traceroute for uludag.edu.tr:
+
+Tracing route to uludag.edu.tr [193.140.245.9]
+over a maximum of 30 hops:
+
+  1     2 ms     *       35 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     4 ms     4 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms     9 ms    10 ms  193.255.0.146 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for uludag.edu.tr in the 5st run: [2, 2, 3, 3, 3, 4, 4, 4, 3, 3, 10, 9, 10]
+Total delay for uludag.edu.tr in the 5st run: 60
+Traceroute for gantep.edu.tr:
+
+Tracing route to gantep.edu.tr [193.140.136.16]
+over a maximum of 30 hops:
+
+  1    17 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    11 ms    10 ms    12 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for gantep.edu.tr in the 5st run: [17, 3, 3, 3, 3, 2, 2, 3, 3, 3, 11, 10, 12]
+Total delay for gantep.edu.tr in the 5st run: 75
+Traceroute for akdeniz.edu.tr:
+
+Tracing route to akdeniz.edu.tr [194.27.186.103]
+over a maximum of 30 hops:
+
+  1     7 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     5 ms     1 ms     1 ms  160.75.195.253 
+  4     4 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms     9 ms     9 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for akdeniz.edu.tr in the 5st run: [7, 5, 1, 1, 4, 3, 3, 3, 3, 3, 10, 9, 9]
+Total delay for akdeniz.edu.tr in the 5st run: 61
+Traceroute for boun.edu.tr:
+
+Tracing route to boun.edu.tr [193.140.192.150]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     4 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for boun.edu.tr in the 5st run: [1, 3, 4, 3, 3, 3, 3, 3, 3, 3]
+Total delay for boun.edu.tr in the 5st run: 29
+Traceroute for ku.edu.tr:
+
+Tracing route to ku.edu.tr [18.197.116.67]
+over a maximum of 30 hops:
+
+  1     1 ms     *        1 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3    14 ms    14 ms    15 ms  160.75.195.253 
+  4     2 ms    23 ms     5 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     2 ms     2 ms     2 ms  193.255.0.141 
+  7    10 ms    10 ms    46 ms  193.140.0.149 
+  8    10 ms    10 ms    10 ms  69.96.154.212.static.turk.net [212.154.96.69] 
+  9    10 ms    12 ms    10 ms  212.156.64.45.static.turktelekom.com.tr [212.156.64.45] 
+ 10    10 ms    11 ms    25 ms  06-ulus-sr14s-t2-2---06-ulus-sr12e-t3-1.statik.turktelekom.com.tr [81.212.222.209] 
+ 11    37 ms    12 ms    50 ms  41-yahyakaptan-t3-1---41-yahyakaptan-t3-2.statik.turktelekom.com.tr [81.212.214.90] 
+ 12     *        *        *     Request timed out.
+ 13     *       13 ms    12 ms  10-balya-sr12-t4-1---10-balikesir-sr12e-t3-3.statik.turktelekom.com.tr [81.212.209.102] 
+ 14     *        *        *     Request timed out.
+ 15    28 ms    41 ms   113 ms  99.83.95.164 
+ 16    25 ms    24 ms    26 ms  150.222.27.54 
+ 17    26 ms    25 ms    34 ms  150.222.27.59 
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ku.edu.tr in the 7st run: [1, 14, 14, 15, 2, 23, 5, 2, 2, 2, 10, 10, 46, 10, 10, 10, 10, 12, 10, 10, 11, 25, 37, 12, 50, 28, 41, 113, 25, 24, 26, 26, 25, 34]
+Total delay for ku.edu.tr in the 7st run: 695
+Traceroute for sabanciuniv.edu:
+
+Tracing route to sabanciuniv.edu [159.20.64.46]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     1 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     3 ms     3 ms  193.255.0.141 
+  7     3 ms     2 ms     2 ms  201.120.192.193.static.turk.net [193.192.120.201] 
+  8     7 ms     7 ms     6 ms  istn-gyrt-tnp-Gi0-3-280.turk.net [212.154.122.41] 
+  9   141 ms    25 ms    27 ms  esks-mrkz-tto-Gi0-0-1-298.turk.net [212.154.122.242] 
+ 10     *        4 ms     4 ms  34-acibadem-xrs-t2-1---34-acibadem-sr12e-t3-8.statik.turktelekom.com.tr [81.212.216.50] 
+ 11    13 ms    13 ms    12 ms  06-ulus-sr14s-t2-1---34-acibadem-xrs-t2-1.statik.turktelekom.com.tr [195.175.166.207] 
+ 12    42 ms    12 ms    13 ms  212.156.99.254.static.turktelekom.com.tr [212.156.99.254] 
+ 13    13 ms    12 ms    12 ms  host-85-29-49-14.reverse.superonline.net [85.29.49.14] 
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for sabanciuniv.edu in the 7st run: [1, 2, 2, 1, 3, 3, 3, 4, 3, 3, 3, 2, 2, 7, 7, 6, 141, 25, 27, 13, 13, 12, 42, 12, 13, 13, 12, 12]
+Total delay for sabanciuniv.edu in the 7st run: 387
+Traceroute for ege.edu.tr:
+
+Tracing route to ege.edu.tr [155.223.2.2]
+over a maximum of 30 hops:
+
+  1     1 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     2 ms     2 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8    10 ms    10 ms    10 ms  ulaknet-ege.ulak.net.tr [194.27.0.6] 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ege.edu.tr in the 6st run: [1, 3, 2, 3, 3, 3, 3, 4, 2, 2, 10, 10, 10]
+Total delay for ege.edu.tr in the 6st run: 56
+Traceroute for kayseri.edu.tr:
+
+Tracing route to kayseri.edu.tr [95.183.224.77]
+over a maximum of 30 hops:
+
+  1     1 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     2 ms  160.75.195.253 
+  4     4 ms     4 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.140.0.149 
+  8    20 ms    19 ms    19 ms  193.140.10.246 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Traceroute for metu.edu:
+
+Tracing route to metu.edu [144.122.145.153]
+over a maximum of 30 hops:
+
+  1     *        2 ms     *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     3 ms  160.75.195.253 
+  4     5 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     5 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9    10 ms   120 ms    11 ms  144.122.1.18 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for kayseri.edu.tr in the 6st run: [1, 3, 2, 2, 4, 4, 3, 3, 3, 3, 10, 10, 10, 20, 19, 19]
+Total delay for kayseri.edu.tr in the 6st run: 116
+Delays for metu.edu in the 6st run: [3, 2, 3, 5, 3, 3, 5, 3, 3, 10, 10, 10, 10, 120, 11]
+Total delay for metu.edu in the 6st run: 201
+Traceroute for uludag.edu.tr:
+
+Tracing route to uludag.edu.tr [193.140.245.9]
+over a maximum of 30 hops:
+
+  1    76 ms     *       15 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     2 ms  160.75.195.253 
+  4     3 ms     4 ms     4 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.255.0.146 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for uludag.edu.tr in the 6st run: [76, 3, 3, 2, 3, 4, 4, 3, 3, 3, 10, 10, 10]
+Total delay for uludag.edu.tr in the 6st run: 134
+Traceroute for gantep.edu.tr:
+
+Tracing route to gantep.edu.tr [193.140.136.16]
+over a maximum of 30 hops:
+
+  1     2 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     2 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     2 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for gantep.edu.tr in the 6st run: [2, 2, 2, 2, 3, 2, 3, 4, 2, 3, 10, 10, 10]
+Total delay for gantep.edu.tr in the 6st run: 55
+Traceroute for akdeniz.edu.tr:
+
+Tracing route to akdeniz.edu.tr [194.27.186.103]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     3 ms  160.75.195.253 
+  4     5 ms     5 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6    95 ms     3 ms     3 ms  193.255.0.141 
+  7    11 ms    10 ms    11 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for akdeniz.edu.tr in the 6st run: [1, 2, 2, 3, 5, 5, 3, 95, 3, 3, 11, 10, 11]
+Total delay for akdeniz.edu.tr in the 6st run: 154
+Traceroute for boun.edu.tr:
+
+Tracing route to boun.edu.tr [193.140.192.150]
+over a maximum of 30 hops:
+
+  1     1 ms     *        1 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     6 ms     3 ms     2 ms  160.75.195.253 
+  4    26 ms    22 ms    22 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     3 ms    12 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for boun.edu.tr in the 6st run: [1, 6, 3, 2, 26, 22, 22, 4, 3, 12]
+Total delay for boun.edu.tr in the 6st run: 101
+Traceroute for ku.edu.tr:
+
+Tracing route to ku.edu.tr [18.197.116.67]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     4 ms  160.75.195.253 
+  4     3 ms     2 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     5 ms     4 ms  193.255.0.141 
+  7    11 ms    10 ms    10 ms  193.140.0.149 
+  8    10 ms     9 ms     9 ms  69.96.154.212.static.turk.net [212.154.96.69] 
+  9     9 ms    11 ms     9 ms  212.156.64.45.static.turktelekom.com.tr [212.156.64.45] 
+ 10     9 ms    10 ms     9 ms  06-ulus-sr14s-t2-2---06-ulus-sr12e-t3-1.statik.turktelekom.com.tr [81.212.222.209] 
+ 11    19 ms    11 ms    12 ms  41-yahyakaptan-t3-1---41-yahyakaptan-t3-2.statik.turktelekom.com.tr [81.212.214.90] 
+ 12     *       11 ms    12 ms  81.212.213.76.static.turktelekom.com.tr [81.212.213.76] 
+ 13    13 ms    12 ms    13 ms  10-balya-sr12-t4-1---10-balikesir-sr12e-t3-3.statik.turktelekom.com.tr [81.212.209.102] 
+ 14     *        *        *     Request timed out.
+ 15    23 ms    22 ms    22 ms  99.83.95.164 
+ 16    23 ms    23 ms    23 ms  150.222.27.54 
+ 17    76 ms    23 ms    23 ms  150.222.27.59 
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ku.edu.tr in the 8st run: [1, 3, 2, 4, 3, 2, 3, 3, 5, 4, 11, 10, 10, 10, 9, 9, 9, 11, 9, 9, 10, 9, 19, 11, 12, 13, 12, 13, 23, 22, 22, 23, 23, 23, 76, 23, 23]
+Total delay for ku.edu.tr in the 8st run: 484
+Traceroute for sabanciuniv.edu:
+
+Tracing route to sabanciuniv.edu [159.20.64.46]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     5 ms     2 ms     1 ms  160.75.195.253 
+  4     2 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     3 ms     3 ms     4 ms  201.120.192.193.static.turk.net [193.192.120.201] 
+  8     6 ms     7 ms     6 ms  istn-gyrt-tnp-Gi0-3-280.turk.net [212.154.122.41] 
+  9     6 ms     6 ms     6 ms  esks-mrkz-tto-Gi0-0-1-298.turk.net [212.154.122.242] 
+ 10     5 ms     5 ms     5 ms  34-acibadem-xrs-t2-1---34-acibadem-sr12e-t3-8.statik.turktelekom.com.tr [81.212.216.50] 
+ 11    13 ms    13 ms    12 ms  06-ulus-sr14s-t2-1---34-acibadem-xrs-t2-1.statik.turktelekom.com.tr [195.175.166.207] 
+ 12    12 ms    14 ms    21 ms  212.156.99.254.static.turktelekom.com.tr [212.156.99.254] 
+ 13    14 ms    13 ms    14 ms  host-85-29-49-14.reverse.superonline.net [85.29.49.14] 
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for sabanciuniv.edu in the 8st run: [1, 5, 2, 1, 2, 2, 2, 3, 3, 3, 3, 3, 4, 6, 7, 6, 6, 6, 6, 5, 5, 5, 13, 13, 12, 12, 14, 21, 14, 13, 14]
+Total delay for sabanciuniv.edu in the 8st run: 212
+Traceroute for ege.edu.tr:
+
+Tracing route to ege.edu.tr [155.223.2.2]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     3 ms  160.75.195.253 
+  4     4 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     8 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8    11 ms    11 ms    11 ms  ulaknet-ege.ulak.net.tr [194.27.0.6] 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ege.edu.tr in the 7st run: [1, 3, 2, 3, 4, 2, 2, 3, 3, 8, 11, 11, 11]
+Total delay for ege.edu.tr in the 7st run: 64
+Traceroute for metu.edu:
+
+Tracing route to metu.edu [144.122.145.153]
+over a maximum of 30 hops:
+
+  1     *        2 ms     *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     3 ms  160.75.195.253 
+  4     3 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6    40 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9    10 ms    10 ms    10 ms  144.122.1.18 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Traceroute for kayseri.edu.tr:
+
+Tracing route to kayseri.edu.tr [95.183.224.77]
+over a maximum of 30 hops:
+
+  1     1 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6    40 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.140.0.149 
+  8    20 ms    19 ms    19 ms  193.140.10.246 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for metu.edu in the 7st run: [2, 2, 3, 3, 2, 2, 40, 3, 3, 10, 10, 10, 10, 10, 10]
+Total delay for metu.edu in the 7st run: 120
+Delays for kayseri.edu.tr in the 7st run: [1, 2, 2, 2, 3, 2, 2, 40, 3, 3, 10, 10, 10, 20, 19, 19]
+Total delay for kayseri.edu.tr in the 7st run: 148
+Traceroute for uludag.edu.tr:
+
+Tracing route to uludag.edu.tr [193.140.245.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        1 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     4 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6    92 ms     4 ms     2 ms  193.255.0.141 
+  7     9 ms     9 ms    15 ms  193.255.0.146 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for uludag.edu.tr in the 7st run: [1, 3, 4, 2, 3, 3, 2, 92, 4, 2, 9, 9, 15]
+Total delay for uludag.edu.tr in the 7st run: 149
+Traceroute for ku.edu.tr:
+
+Tracing route to ku.edu.tr [18.197.116.67]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    17 ms    10 ms     9 ms  193.140.0.149 
+  8    11 ms    10 ms    10 ms  69.96.154.212.static.turk.net [212.154.96.69] 
+  9     9 ms     9 ms     9 ms  212.156.64.45.static.turktelekom.com.tr [212.156.64.45] 
+ 10    10 ms     9 ms     9 ms  06-ulus-sr14s-t2-2---06-ulus-sr12e-t3-1.statik.turktelekom.com.tr [81.212.222.209] 
+ 11    11 ms    12 ms    11 ms  41-yahyakaptan-t3-1---41-yahyakaptan-t3-2.statik.turktelekom.com.tr [81.212.214.90] 
+ 12     *       13 ms    12 ms  81.212.213.76.static.turktelekom.com.tr [81.212.213.76] 
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15    22 ms    22 ms    23 ms  99.83.95.164 
+ 16    23 ms    23 ms    26 ms  150.222.27.54 
+ 17    24 ms    23 ms    23 ms  150.222.27.59 
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ku.edu.tr in the 9st run: [1, 3, 2, 3, 3, 3, 2, 3, 3, 3, 17, 10, 9, 11, 10, 10, 9, 9, 9, 10, 9, 9, 11, 12, 11, 22, 22, 23, 23, 23, 26, 24, 23, 23]
+Total delay for ku.edu.tr in the 9st run: 391
+Traceroute for gantep.edu.tr:
+
+Tracing route to gantep.edu.tr [193.140.136.16]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3    92 ms     4 ms     3 ms  160.75.195.253 
+  4     2 ms     3 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms    11 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for gantep.edu.tr in the 7st run: [1, 92, 4, 3, 2, 3, 2, 3, 3, 3, 10, 11, 10]
+Total delay for gantep.edu.tr in the 7st run: 147
+Traceroute for akdeniz.edu.tr:
+
+Tracing route to akdeniz.edu.tr [194.27.186.103]
+over a maximum of 30 hops:
+
+  1     1 ms     *        3 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     4 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms    11 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for akdeniz.edu.tr in the 7st run: [1, 3, 3, 3, 3, 3, 3, 3, 4, 3, 10, 10, 11]
+Total delay for akdeniz.edu.tr in the 7st run: 60
+Traceroute for sabanciuniv.edu:
+
+Tracing route to sabanciuniv.edu [159.20.64.46]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3    71 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     2 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     3 ms     3 ms     2 ms  201.120.192.193.static.turk.net [193.192.120.201] 
+  8     6 ms     6 ms     6 ms  istn-gyrt-tnp-Gi0-3-280.turk.net [212.154.122.41] 
+  9     7 ms     6 ms     7 ms  esks-mrkz-tto-Gi0-0-1-298.turk.net [212.154.122.242] 
+ 10     4 ms     4 ms     4 ms  34-acibadem-xrs-t2-1---34-acibadem-sr12e-t3-8.statik.turktelekom.com.tr [81.212.216.50] 
+ 11    12 ms    12 ms    12 ms  06-ulus-sr14s-t2-1---34-acibadem-xrs-t2-1.statik.turktelekom.com.tr [195.175.166.207] 
+ 12    11 ms    31 ms    27 ms  212.156.99.254.static.turktelekom.com.tr [212.156.99.254] 
+ 13    14 ms    13 ms    13 ms  host-85-29-49-14.reverse.superonline.net [85.29.49.14] 
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for sabanciuniv.edu in the 9st run: [1, 71, 2, 2, 3, 2, 3, 3, 3, 3, 3, 3, 2, 6, 6, 6, 7, 6, 7, 4, 4, 4, 12, 12, 12, 11, 31, 27, 14, 13, 13]
+Total delay for sabanciuniv.edu in the 9st run: 296
+Traceroute for boun.edu.tr:
+
+Tracing route to boun.edu.tr [193.140.192.150]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     4 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     5 ms     3 ms     4 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for boun.edu.tr in the 7st run: [1, 2, 2, 2, 4, 3, 3, 5, 3, 4]
+Total delay for boun.edu.tr in the 7st run: 29
+Traceroute for ku.edu.tr:
+
+Tracing route to ku.edu.tr [18.197.116.67]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     2 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     9 ms     9 ms     9 ms  193.140.0.149 
+  8    57 ms    10 ms   115 ms  69.96.154.212.static.turk.net [212.154.96.69] 
+  9    35 ms     9 ms     9 ms  212.156.64.45.static.turktelekom.com.tr [212.156.64.45] 
+ 10     9 ms    50 ms     9 ms  06-ulus-sr14s-t2-2---06-ulus-sr12e-t3-1.statik.turktelekom.com.tr [81.212.222.209] 
+ 11    60 ms    12 ms    12 ms  41-yahyakaptan-t3-1---41-yahyakaptan-t3-2.statik.turktelekom.com.tr [81.212.214.90] 
+ 12     *       12 ms    12 ms  81.212.213.76.static.turktelekom.com.tr [81.212.213.76] 
+ 13     *        *       13 ms  10-balya-sr12-t4-1---10-balikesir-sr12e-t3-3.statik.turktelekom.com.tr [81.212.209.102] 
+ 14     *        *        *     Request timed out.
+ 15    22 ms    22 ms    21 ms  99.83.95.164 
+ 16    23 ms    23 ms    23 ms  150.222.27.54 
+ 17    23 ms    23 ms    22 ms  150.222.27.59 
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ku.edu.tr in the 10st run: [1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 9, 9, 9, 57, 10, 115, 35, 9, 9, 9, 50, 9, 60, 12, 12, 22, 22, 21, 23, 23, 23, 23, 23, 22]
+Total delay for ku.edu.tr in the 10st run: 640
+Minimum Delay for ku.edu.tr: 391 ms
+Maximum Delay for ku.edu.tr: 695 ms
+Average Delay for ku.edu.tr: 498.3 ms
+Traceroute for ege.edu.tr:
+
+Tracing route to ege.edu.tr [155.223.2.2]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     2 ms     3 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8    11 ms    11 ms    11 ms  ulaknet-ege.ulak.net.tr [194.27.0.6] 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ege.edu.tr in the 8st run: [1, 2, 2, 2, 3, 3, 3, 3, 2, 3, 11, 11, 11]
+Total delay for ege.edu.tr in the 8st run: 57
+Traceroute for metu.edu:
+
+Tracing route to metu.edu [144.122.145.153]
+over a maximum of 30 hops:
+
+  1     *        2 ms     *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     2 ms  160.75.195.253 
+  4     4 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     2 ms     3 ms     2 ms  193.255.0.141 
+  7    12 ms    14 ms    14 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9    10 ms    11 ms     9 ms  144.122.1.18 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Traceroute for kayseri.edu.tr:
+
+Tracing route to kayseri.edu.tr [95.183.224.77]
+over a maximum of 30 hops:
+
+  1     1 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     2 ms  160.75.195.253 
+  4     4 ms     2 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    12 ms    13 ms    13 ms  193.140.0.149 
+  8    19 ms    18 ms    18 ms  193.140.10.246 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for metu.edu in the 8st run: [3, 3, 2, 4, 3, 3, 2, 3, 2, 12, 14, 14, 10, 11, 9]
+Total delay for metu.edu in the 8st run: 95
+Delays for kayseri.edu.tr in the 8st run: [1, 3, 3, 2, 4, 2, 3, 3, 3, 3, 12, 13, 13, 19, 18, 18]
+Total delay for kayseri.edu.tr in the 8st run: 120
+Traceroute for uludag.edu.tr:
+
+Tracing route to uludag.edu.tr [193.140.245.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        1 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     3 ms  160.75.195.253 
+  4     2 ms     4 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6    10 ms     8 ms     8 ms  193.255.0.141 
+  7    10 ms    12 ms    18 ms  193.255.0.146 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for uludag.edu.tr in the 8st run: [1, 2, 3, 3, 2, 4, 2, 10, 8, 8, 10, 12, 18]
+Total delay for uludag.edu.tr in the 8st run: 83
+Traceroute for sabanciuniv.edu:
+
+Tracing route to sabanciuniv.edu [159.20.64.46]
+over a maximum of 30 hops:
+
+  1     3 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     3 ms  160.75.195.253 
+  4     2 ms     3 ms     4 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     2 ms     2 ms  193.255.0.141 
+  7     3 ms     5 ms     3 ms  201.120.192.193.static.turk.net [193.192.120.201] 
+  8     7 ms     6 ms     6 ms  istn-gyrt-tnp-Gi0-3-280.turk.net [212.154.122.41] 
+  9     6 ms     6 ms     6 ms  esks-mrkz-tto-Gi0-0-1-298.turk.net [212.154.122.242] 
+ 10     5 ms     5 ms     5 ms  34-acibadem-xrs-t2-1---34-acibadem-sr12e-t3-8.statik.turktelekom.com.tr [81.212.216.50] 
+ 11    14 ms    13 ms    46 ms  06-ulus-sr14s-t2-1---34-acibadem-xrs-t2-1.statik.turktelekom.com.tr [195.175.166.207] 
+ 12    53 ms    12 ms    16 ms  212.156.99.254.static.turktelekom.com.tr [212.156.99.254] 
+ 13    46 ms    14 ms   121 ms  host-85-29-49-14.reverse.superonline.net [85.29.49.14] 
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for sabanciuniv.edu in the 10st run: [3, 2, 2, 3, 2, 3, 4, 3, 2, 2, 3, 5, 3, 7, 6, 6, 6, 6, 6, 5, 5, 5, 14, 13, 46, 53, 12, 16, 46, 14, 121]
+Total delay for sabanciuniv.edu in the 10st run: 424
+Minimum Delay for sabanciuniv.edu: 193 ms
+Maximum Delay for sabanciuniv.edu: 528 ms
+Average Delay for sabanciuniv.edu: 329.2 ms
+Traceroute for gantep.edu.tr:
+
+Tracing route to gantep.edu.tr [193.140.136.16]
+over a maximum of 30 hops:
+
+  1     1 ms     *        1 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     6 ms     4 ms  160.75.195.253 
+  4     2 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6   102 ms     2 ms     2 ms  193.255.0.141 
+  7    10 ms    11 ms     9 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for gantep.edu.tr in the 8st run: [1, 2, 6, 4, 2, 2, 2, 102, 2, 2, 10, 11, 9]
+Total delay for gantep.edu.tr in the 8st run: 155
+Traceroute for akdeniz.edu.tr:
+
+Tracing route to akdeniz.edu.tr [194.27.186.103]
+over a maximum of 30 hops:
+
+  1     1 ms     *        1 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3    18 ms    10 ms     2 ms  160.75.195.253 
+  4     2 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6    23 ms     2 ms     2 ms  193.255.0.141 
+  7    10 ms    10 ms     9 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for akdeniz.edu.tr in the 8st run: [1, 18, 10, 2, 2, 2, 2, 23, 2, 2, 10, 10, 9]
+Total delay for akdeniz.edu.tr in the 8st run: 93
+Traceroute for boun.edu.tr:
+
+Tracing route to boun.edu.tr [193.140.192.150]
+over a maximum of 30 hops:
+
+  1     1 ms     *        3 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     4 ms     4 ms     2 ms  160.75.195.253 
+  4     2 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     2 ms     3 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for boun.edu.tr in the 8st run: [1, 4, 4, 2, 2, 3, 3, 3, 2, 3]
+Total delay for boun.edu.tr in the 8st run: 27
+Traceroute for ege.edu.tr:
+
+Tracing route to ege.edu.tr [155.223.2.2]
+over a maximum of 30 hops:
+
+  1     1 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     2 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6    33 ms    10 ms   115 ms  193.255.0.141 
+  7    27 ms     *        *     194.27.0.18 
+  8    11 ms    10 ms    10 ms  ulaknet-ege.ulak.net.tr [194.27.0.6] 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ege.edu.tr in the 9st run: [1, 2, 2, 2, 2, 3, 3, 33, 10, 115, 27, 11, 10, 10]
+Total delay for ege.edu.tr in the 9st run: 231
+Traceroute for kayseri.edu.tr:
+
+Tracing route to kayseri.edu.tr [95.183.224.77]
+over a maximum of 30 hops:
+
+  1     *        2 ms     *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     4 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     7 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6    40 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms     9 ms  193.140.0.149 
+  8    19 ms    18 ms    18 ms  193.140.10.246 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Traceroute for metu.edu:
+
+Tracing route to metu.edu [144.122.145.153]
+over a maximum of 30 hops:
+
+  1     1 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     2 ms  160.75.195.253 
+  4     3 ms     2 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6    40 ms     2 ms     2 ms  193.255.0.141 
+  7    10 ms     9 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     9 ms     9 ms     9 ms  144.122.1.18 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for kayseri.edu.tr in the 9st run: [2, 4, 3, 3, 3, 7, 40, 3, 3, 10, 10, 9, 19, 18, 18]
+Total delay for kayseri.edu.tr in the 9st run: 152
+Delays for metu.edu in the 9st run: [1, 2, 3, 2, 3, 2, 2, 40, 2, 2, 10, 9, 10, 9, 9, 9]
+Total delay for metu.edu in the 9st run: 115
+Traceroute for uludag.edu.tr:
+
+Tracing route to uludag.edu.tr [193.140.245.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     4 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms     9 ms  193.255.0.146 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for uludag.edu.tr in the 9st run: [1, 2, 3, 3, 3, 3, 3, 4, 4, 3, 10, 10, 9]
+Total delay for uludag.edu.tr in the 9st run: 58
+Traceroute for gantep.edu.tr:
+
+Tracing route to gantep.edu.tr [193.140.136.16]
+over a maximum of 30 hops:
+
+  1     1 ms     *        3 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for gantep.edu.tr in the 9st run: [1, 3, 3, 3, 3, 3, 3, 4, 3, 3, 10, 10, 10]
+Total delay for gantep.edu.tr in the 9st run: 59
+Traceroute for akdeniz.edu.tr:
+
+Tracing route to akdeniz.edu.tr [194.27.186.103]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     5 ms     3 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6    12 ms    12 ms    12 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for akdeniz.edu.tr in the 9st run: [1, 5, 3, 2, 3, 3, 3, 12, 12, 12, 10, 10, 10]
+Total delay for akdeniz.edu.tr in the 9st run: 86
+Traceroute for boun.edu.tr:
+
+Tracing route to boun.edu.tr [193.140.192.150]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms    17 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for boun.edu.tr in the 9st run: [1, 2, 3, 17, 3, 3, 3, 3, 3, 3]
+Total delay for boun.edu.tr in the 9st run: 41
+Traceroute for ege.edu.tr:
+
+Tracing route to ege.edu.tr [155.223.2.2]
+over a maximum of 30 hops:
+
+  1     2 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3    95 ms     2 ms     3 ms  160.75.195.253 
+  4     3 ms     3 ms     2 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     4 ms     3 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8    11 ms    12 ms    11 ms  ulaknet-ege.ulak.net.tr [194.27.0.6] 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for ege.edu.tr in the 10st run: [2, 95, 2, 3, 3, 3, 2, 4, 4, 3, 11, 12, 11]
+Total delay for ege.edu.tr in the 10st run: 155
+Minimum Delay for ege.edu.tr: 56 ms
+Maximum Delay for ege.edu.tr: 431 ms
+Average Delay for ege.edu.tr: 141.7 ms
+Traceroute for kayseri.edu.tr:
+
+Tracing route to kayseri.edu.tr [95.183.224.77]
+over a maximum of 30 hops:
+
+  1     3 ms     *        *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     4 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     2 ms     3 ms  193.255.0.141 
+  7    10 ms     9 ms     9 ms  193.140.0.149 
+  8    19 ms    18 ms    18 ms  193.140.10.246 
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Traceroute for metu.edu:
+
+Tracing route to metu.edu [144.122.145.153]
+over a maximum of 30 hops:
+
+  1     *        2 ms     *     DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     4 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     2 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9    10 ms    10 ms     9 ms  144.122.1.18 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for kayseri.edu.tr in the 10st run: [3, 3, 2, 2, 3, 4, 3, 3, 2, 3, 10, 9, 9, 19, 18, 18]
+Total delay for kayseri.edu.tr in the 10st run: 111
+Delays for metu.edu in the 10st run: [2, 3, 3, 3, 4, 3, 3, 3, 2, 10, 10, 10, 10, 10, 9]
+Total delay for metu.edu in the 10st run: 85
+Minimum Delay for kayseri.edu.tr: 111 ms
+Maximum Delay for kayseri.edu.tr: 166 ms
+Average Delay for kayseri.edu.tr: 133.9 ms
+Minimum Delay for metu.edu: 85 ms
+Maximum Delay for metu.edu: 201 ms
+Average Delay for metu.edu: 109.4 ms
+Traceroute for uludag.edu.tr:
+
+Tracing route to uludag.edu.tr [193.140.245.9]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     4 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  193.255.0.141 
+  7    10 ms    10 ms    10 ms  193.255.0.146 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for uludag.edu.tr in the 10st run: [1, 4, 2, 2, 3, 3, 3, 3, 3, 3, 10, 10, 10]
+Total delay for uludag.edu.tr in the 10st run: 57
+Minimum Delay for uludag.edu.tr: 57 ms
+Maximum Delay for uludag.edu.tr: 149 ms
+Average Delay for uludag.edu.tr: 86.8 ms
+Traceroute for gantep.edu.tr:
+
+Tracing route to gantep.edu.tr [193.140.136.16]
+over a maximum of 30 hops:
+
+  1     2 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     2 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     5 ms     3 ms     3 ms  193.255.0.141 
+  7    11 ms    10 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for gantep.edu.tr in the 10st run: [2, 2, 3, 3, 3, 2, 3, 5, 3, 3, 11, 10, 10]
+Total delay for gantep.edu.tr in the 10st run: 60
+Minimum Delay for gantep.edu.tr: 55 ms
+Maximum Delay for gantep.edu.tr: 196 ms
+Average Delay for gantep.edu.tr: 102.3 ms
+Traceroute for akdeniz.edu.tr:
+
+Tracing route to akdeniz.edu.tr [194.27.186.103]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     3 ms     3 ms     3 ms  160.75.195.253 
+  4     3 ms     4 ms     5 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     3 ms     3 ms  193.255.0.141 
+  7    11 ms    10 ms    10 ms  193.140.0.149 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for akdeniz.edu.tr in the 10st run: [1, 3, 3, 3, 3, 4, 5, 4, 3, 3, 11, 10, 10]
+Total delay for akdeniz.edu.tr in the 10st run: 63
+Minimum Delay for akdeniz.edu.tr: 60 ms
+Maximum Delay for akdeniz.edu.tr: 232 ms
+Average Delay for akdeniz.edu.tr: 100.7 ms
+Traceroute for boun.edu.tr:
+
+Tracing route to boun.edu.tr [193.140.192.150]
+over a maximum of 30 hops:
+
+  1     1 ms     *        2 ms  DESKTOP-B2AQJM3.mshome.net [192.168.137.1] 
+  2     *        *        *     Request timed out.
+  3     2 ms     2 ms     2 ms  160.75.195.253 
+  4     3 ms     3 ms     3 ms  160.75.126.25 
+  5     *        *        *     Request timed out.
+  6     4 ms     3 ms     2 ms  193.255.0.141 
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Delays for boun.edu.tr in the 10st run: [1, 2, 2, 2, 3, 3, 3, 4, 3, 2]
+Total delay for boun.edu.tr in the 10st run: 25
+Minimum Delay for boun.edu.tr: 25 ms
+Maximum Delay for boun.edu.tr: 115 ms
+Average Delay for boun.edu.tr: 45.6 ms
