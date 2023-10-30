@@ -18,13 +18,13 @@ destinations = [
 ]
 
 # Define the number of repetitions for each setup
-repetitions = {"first_setup": 10, "second_setup": 10, "third_setup": 10, "fourth_setup": 10}
+repetitions = {"first_setup": 10, "second_setup": 10, "third_setup": 10}
 
 # Define the times for each setup
-setup_times = {"first_setup": "19:00:00", "second_setup": "21:00:00", "third_setup": "23:00:00", "fourth_setup": "01:00:00"}
+setup_times = {"first_setup": "11:00:00", "second_setup": "13:00:00", "third_setup": "15:00:00"}
 
 # Output file to write the log
-output_file = "threading_sunday_evening_traceroute_log.txt"
+output_file = "threading_monday_traceroute_log.txt"
 
 # Function to run traceroute for a destination
 def run_traceroute(destination, repetitions):
