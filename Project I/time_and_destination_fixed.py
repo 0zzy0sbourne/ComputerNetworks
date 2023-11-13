@@ -18,7 +18,7 @@ plt.figure(figsize=(10, 6))
 plt.bar(df['Day'], df['Average Delay'], color=['blue', 'green', 'purple', 'red'])
 plt.xlabel('Day')
 plt.ylabel('Average Delay (ms)')
-plt.title('Average Delays for metu.edu at 01:00:00 on Different Days')
+plt.title('Average Delays for metu.edu at 14:00:00 on Different Days')
 
 # Save the plot as an image file
 plt.savefig("traceroute_delays_combined.png")
