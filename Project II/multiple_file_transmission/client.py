@@ -41,9 +41,11 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((host, port))
 print(f"Connected to {host}:{port}")
 
+
 try:
     # Upload files to the server
-    client_socket.send('upload'.encode())
+    mode = 'upload'
+    client_socket.send(mode.encode())
 
     # Get the list of txt files in the client directory
     txt_files = [file for file in os.listdir() if file.endswith(".txt")]
@@ -52,27 +54,23 @@ try:
     num_files = len(txt_files)
     client_socket.send(str(num_files).encode())
 
-    # Send each file name to the server
+    # Send each file name and handle file upload
     for file_name in txt_files:
         client_socket.send(file_name.encode())
-
-    # Handle file upload
-    for file_name in txt_files:
-        handle_file_transfer(client_socket, file_name, 'upload')
+        handle_file_transfer(client_socket, file_name, mode)
 
     print("File upload completed.")
 
     # Download files from the server
-    client_socket.send('download'.encode())
+    mode = 'download'
+    client_socket.send(mode.encode())
 
     # Send the number of files
     client_socket.send(str(num_files).encode())
 
     # Handle file download
     for file_name in txt_files:
-        # Modify the filename for download
-        # downloaded_file_name = modify_filename_for_download(file_name)
-        handle_file_transfer(client_socket, file_name, 'download')
+        handle_file_transfer(client_socket, file_name, mode)
 
     print("File download completed.")
 

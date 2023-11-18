@@ -4,8 +4,6 @@ import os
 # Server configuration
 host = '127.0.0.1'
 port = 12345
-
-# Function to handle file upload/download
 def handle_file_transfer(client_socket, file_name, mode):
     if mode == 'upload':
         with open(file_name, 'wb') as file:
@@ -15,12 +13,18 @@ def handle_file_transfer(client_socket, file_name, mode):
                 data = client_socket.recv(1024)
         print(f"{file_name} received and saved successfully.")
     elif mode == 'download':
-        with open(file_name, 'rb') as file:
+        downloaded_file_name = modify_filename_for_download(file_name)  # Modify the filename for download
+        with open(downloaded_file_name, 'rb') as file:
             data = file.read(1024)
             while data:
                 client_socket.send(data)
                 data = file.read(1024)
-        print(f"{file_name} sent to the client.")
+        print(f"{downloaded_file_name} sent to the client.")
+
+# Function to modify the filename for download
+def modify_filename_for_download(file_name):
+    base_name, extension = os.path.splitext(file_name)
+    return base_name + "_downloaded" + extension
 
 # Create a socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
