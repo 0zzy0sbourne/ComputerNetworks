@@ -2,6 +2,8 @@ import tkinter as tk
 import time
 
 
+
+
 class RdtSimulator:
     def __init__(self, root):
         self.root = root
