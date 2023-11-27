@@ -1,10 +1,11 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton
-from PyQt5.QtCore import pyqtSlot
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QLabel, QGridLayout, QWidget 
+from PyQt5.QtCore import pyqtSlot, Qt
 
 class Rdt1_0:
     def __init__(self):
         self.state = "wait_for_call_from_above"
         self.packet = None
+        self.data = "Some data"  # Add this line
 
     def fsm_rdt1_0(self):
         while True:
@@ -123,17 +124,48 @@ class Rdt3_0:
         event = input("Enter event: ")
         return event
 
+class OperationSequenceDiagram(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.label = QLabel(self)
+        self.label.setText("Operation Sequence Diagram will be displayed here.")
+        self.vbox = QVBoxLayout()
+        self.vbox.addWidget(self.label)
+        self.setLayout(self.vbox)
+
+class CommandPromptLabel(QLabel):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setText("Command Prompt")
+        self.setAlignment(Qt.AlignCenter)
+        self.setStyleSheet("QLabel { background-color : black; color : white; }")
 
 class MainWindow(QMainWindow):
-    def __init__(self, rdt):
+    def __init__(self):
         super().__init__()
-        self.rdt = Rdt1_0()
-        self.button = QPushButton("Trigger Event", self)
-        self.button.clicked.connect(self.rdt.wait_for_event)
+        self.grid = QGridLayout()
+
+        self.serviceModelLabel = QLabel("Reliable Data Transfer Service Model")
+        self.stateDiagramLabel = QLabel("State Diagram")
+        
+        # Create instances of OperationSequenceDiagram and CommandPromptLabel
+        self.operationSequenceDiagram = OperationSequenceDiagram()
+        self.commandPromptLabel = CommandPromptLabel()
+
+        # Add labels and instances to the grid layout
+        self.grid.addWidget(self.serviceModelLabel, 0, 0)
+        self.grid.addWidget(self.stateDiagramLabel, 0, 1)
+        self.grid.addWidget(self.operationSequenceDiagram, 1, 0)  # Add OperationSequenceDiagram
+        self.grid.addWidget(self.commandPromptLabel, 1, 1)        # Add CommandPromptLabel
+
+        # Set the central widget to the grid layout
+        central_widget = QWidget()
+        central_widget.setLayout(self.grid)
+        self.setCentralWidget(central_widget)
 
 
 app = QApplication([])
 rdt = Rdt1_0()
-window = MainWindow(rdt)
+window = MainWindow()
 window.show()
 app.exec_()
