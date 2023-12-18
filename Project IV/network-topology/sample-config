@@ -1,0 +1,13 @@
+{
+	"topologies": "5",
+	"plot": "True",
+	"dimensions": "10x10",
+	"routers": "4",
+	"router-links": "2",
+	"clients": "4",
+	"client-links": "2",
+	"servers": "2",
+	"server-links": "1-2",
+	"channels": "8",
+	"channel-rates": "10,100,1000"
+}
