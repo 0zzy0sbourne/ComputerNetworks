@@ -461,7 +461,6 @@ class DistanceVectorRouting(Thread):
         checksum = struct.pack('=H', self.checksum(payload))
         # payload = struct.pack('='+str(len(payload))+'s', payload)
         payload = struct.pack('='+str(len(payload))+'s', payload.encode())
-        
         rawPacket = router + payloadSize + checksum + payload
 
         return rawPacket
