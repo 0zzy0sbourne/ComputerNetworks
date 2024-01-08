@@ -16,5 +16,5 @@ python ClientApp.py -n [router_name] -i [router_ip] -p [router_port] -f [router_
 
 (e.g.)
 ```bash
- python ClientApp.py -n a -i 127.0.0.1 -p 8080 -f a.dat -t 15
+ python ClientApp.py -n a -i 127.0.0.1 -p 8080 -f router_information.dat -t 15
 ```

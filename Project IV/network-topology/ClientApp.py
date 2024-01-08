@@ -21,7 +21,7 @@ def shutdown(signal=None, frame=None):
 signal.signal(signal.SIGINT, shutdown)
 # atexit.register(shutdown)
 
-def ClientApp(**args):
+def run_distance_vector_routing(**args):
     global router
 
     # Arguments
@@ -49,6 +49,28 @@ def ClientApp(**args):
         print(e)
 
 
+def run_link_state_routing(**args):
+    # Additional logic to run Link State Routing
+    # Use the provided arguments or add any other necessary setup
+
+    try:
+        # Create 'LinkStateRouting' object
+        link_state_router = LinkStateRouting(
+            router_name=args["router_name"],
+            router_ip=args["router_ip"],
+            router_port=args["router_port"],
+            router_information=args["router_information"],
+            timeout=args["timeout"],
+            www=args["www"]
+        )
+
+        # Start running the Link State Routing algorithm
+        link_state_router.run()
+    except Exception as e:
+        print("Unexpected exception in Link State Routing!")
+        print(e)
+
+
 if __name__ == "__main__":
     # Argument parser
     parser = argparse.ArgumentParser(description='Distance Vector Routing algorithm',
@@ -67,15 +89,18 @@ if __name__ == "__main__":
                         help="Router IP, default: 127.0.0.1")
     parser.add_argument("-p", "--router_port", type=int, default=8080,
                         help="Router port, default: 8080")
-    parser.add_argument("-f", "--router_information", type=str, default="a.dat",
-                        help="Router information, default: a.dat")
+    parser.add_argument("-f", "--router_information", type=str, default="router_information.dat",
+                        help="Router information, default: router_information.dat")
     parser.add_argument("-t", "--timeout", type=int, default=15,
                         help="Timeout, default: 15")
-    parser.add_argument("-w", "--www", type=str, default=os.path.join(os.getcwd(), "data", "scenario-1"),
-                        help="Path consisting of router information, default: /<Current Working Directory>/data/scenario-1/")
+    parser.add_argument("-w", "--www", type=str, default=os.path.join(os.getcwd(), "router_info_generator"),
+                        help="Path consisting of router information, default: /<Current Working Directory>/generate_router_information/")
 
     # Read user inputs
     args = vars(parser.parse_args())
 
-    # Run Client Application
-    ClientApp(**args)
+    # Run Distance Vector Routing
+#     run_distance_vector_routing(**args)
+
+    # Run Link State Routing after running the Distance Vector Routing
+    run_link_state_routing(**args)

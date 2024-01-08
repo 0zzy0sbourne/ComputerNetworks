@@ -46,3 +46,8 @@ All parameters are required and explained below:
 * `channels` -- the number of channels used to connect the topology nodes. Each channel can have a different data rate.
 * `channel-rates` -- a list of channel rates. The size of this list should match the value of the `channel` parameter.
 
+
+## What to do with the output JSON? 
+
+The output JSON file that includes the network topology should be put into `router_info_generator` folder before we run 
+`generate_router_information`. 
