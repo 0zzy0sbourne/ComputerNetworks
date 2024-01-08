@@ -8,6 +8,8 @@ from distance_vector_routing.router import Router
 from distance_vector_routing.router import FileNotExistError
 from distance_vector_routing.router import RouterError
 
+from link_state_routing.link_state import LinkStateRouting
+
 # Global variables
 router = None
 

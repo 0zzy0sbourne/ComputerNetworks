@@ -1,0 +1,283 @@
+{
+    "channels": [
+        {
+            "channel_id": "channel1",
+            "data_rate": "100"
+        },
+        {
+            "channel_id": "channel2",
+            "data_rate": "100"
+        },
+        {
+            "channel_id": "channel3",
+            "data_rate": "10"
+        },
+        {
+            "channel_id": "channel4",
+            "data_rate": "1000"
+        },
+        {
+            "channel_id": "channel5",
+            "data_rate": "100"
+        },
+        {
+            "channel_id": "channel6",
+            "data_rate": "1000"
+        },
+        {
+            "channel_id": "channel7",
+            "data_rate": "100"
+        },
+        {
+            "channel_id": "channel8",
+            "data_rate": "10"
+        }
+    ],
+    "connections": [
+        {
+            "channel_id": "channel7",
+            "destination_id": "node2",
+            "destination_interface": "interface1",
+            "source_id": "node1",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel6",
+            "destination_id": "node3",
+            "destination_interface": "interface1",
+            "source_id": "node1",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel5",
+            "destination_id": "node3",
+            "destination_interface": "interface1",
+            "source_id": "node2",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel4",
+            "destination_id": "node1",
+            "destination_interface": "interface1",
+            "source_id": "node2",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel5",
+            "destination_id": "node4",
+            "destination_interface": "interface1",
+            "source_id": "node3",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel1",
+            "destination_id": "node2",
+            "destination_interface": "interface1",
+            "source_id": "node3",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel2",
+            "destination_id": "node3",
+            "destination_interface": "interface1",
+            "source_id": "node4",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel2",
+            "destination_id": "node2",
+            "destination_interface": "interface1",
+            "source_id": "node4",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel8",
+            "destination_id": "node2",
+            "destination_interface": "interface1",
+            "source_id": "node5",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel4",
+            "destination_id": "node3",
+            "destination_interface": "interface1",
+            "source_id": "node5",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel2",
+            "destination_id": "node1",
+            "destination_interface": "interface1",
+            "source_id": "node6",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel1",
+            "destination_id": "node2",
+            "destination_interface": "interface1",
+            "source_id": "node6",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel1",
+            "destination_id": "node4",
+            "destination_interface": "interface1",
+            "source_id": "node7",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel7",
+            "destination_id": "node3",
+            "destination_interface": "interface1",
+            "source_id": "node7",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel1",
+            "destination_id": "node2",
+            "destination_interface": "interface1",
+            "source_id": "node8",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel3",
+            "destination_id": "node3",
+            "destination_interface": "interface1",
+            "source_id": "node8",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel7",
+            "destination_id": "node4",
+            "destination_interface": "interface1",
+            "source_id": "node9",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel3",
+            "destination_id": "node3",
+            "destination_interface": "interface1",
+            "source_id": "node9",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel3",
+            "destination_id": "node4",
+            "destination_interface": "interface1",
+            "source_id": "node10",
+            "source_interface": "interface1"
+        }
+    ],
+    "nodes": [
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node1",
+            "node_type": "router",
+            "x-coord": "1.51",
+            "y-coord": "1.86"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node2",
+            "node_type": "router",
+            "x-coord": "1.26",
+            "y-coord": "7.11"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node3",
+            "node_type": "router",
+            "x-coord": "5.82",
+            "y-coord": "6.76"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node4",
+            "node_type": "router",
+            "x-coord": "8.68",
+            "y-coord": "5.38"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node5",
+            "node_type": "client",
+            "x-coord": "0.15",
+            "y-coord": "8.97"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node6",
+            "node_type": "client",
+            "x-coord": "0.37",
+            "y-coord": "1.5"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node7",
+            "node_type": "client",
+            "x-coord": "8.82",
+            "y-coord": "9.11"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node8",
+            "node_type": "client",
+            "x-coord": "0.54",
+            "y-coord": "9.89"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node9",
+            "node_type": "server",
+            "x-coord": "9.33",
+            "y-coord": "9.19"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node10",
+            "node_type": "server",
+            "x-coord": "9.64",
+            "y-coord": "0.28"
+        }
+    ]
+}

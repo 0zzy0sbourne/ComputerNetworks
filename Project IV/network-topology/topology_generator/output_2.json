@@ -1,0 +1,276 @@
+{
+    "channels": [
+        {
+            "channel_id": "channel1",
+            "data_rate": "100"
+        },
+        {
+            "channel_id": "channel2",
+            "data_rate": "10"
+        },
+        {
+            "channel_id": "channel3",
+            "data_rate": "1000"
+        },
+        {
+            "channel_id": "channel4",
+            "data_rate": "1000"
+        },
+        {
+            "channel_id": "channel5",
+            "data_rate": "1000"
+        },
+        {
+            "channel_id": "channel6",
+            "data_rate": "1000"
+        },
+        {
+            "channel_id": "channel7",
+            "data_rate": "100"
+        },
+        {
+            "channel_id": "channel8",
+            "data_rate": "100"
+        }
+    ],
+    "connections": [
+        {
+            "channel_id": "channel4",
+            "destination_id": "node4",
+            "destination_interface": "interface1",
+            "source_id": "node1",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel7",
+            "destination_id": "node2",
+            "destination_interface": "interface1",
+            "source_id": "node1",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel1",
+            "destination_id": "node4",
+            "destination_interface": "interface1",
+            "source_id": "node2",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel7",
+            "destination_id": "node1",
+            "destination_interface": "interface1",
+            "source_id": "node2",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel5",
+            "destination_id": "node1",
+            "destination_interface": "interface1",
+            "source_id": "node3",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel1",
+            "destination_id": "node2",
+            "destination_interface": "interface1",
+            "source_id": "node3",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel1",
+            "destination_id": "node2",
+            "destination_interface": "interface1",
+            "source_id": "node4",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel3",
+            "destination_id": "node1",
+            "destination_interface": "interface1",
+            "source_id": "node4",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel2",
+            "destination_id": "node4",
+            "destination_interface": "interface1",
+            "source_id": "node5",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel6",
+            "destination_id": "node1",
+            "destination_interface": "interface1",
+            "source_id": "node5",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel3",
+            "destination_id": "node4",
+            "destination_interface": "interface1",
+            "source_id": "node6",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel5",
+            "destination_id": "node2",
+            "destination_interface": "interface1",
+            "source_id": "node6",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel4",
+            "destination_id": "node1",
+            "destination_interface": "interface1",
+            "source_id": "node7",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel2",
+            "destination_id": "node3",
+            "destination_interface": "interface1",
+            "source_id": "node7",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel5",
+            "destination_id": "node4",
+            "destination_interface": "interface1",
+            "source_id": "node8",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel7",
+            "destination_id": "node2",
+            "destination_interface": "interface1",
+            "source_id": "node8",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel6",
+            "destination_id": "node1",
+            "destination_interface": "interface1",
+            "source_id": "node9",
+            "source_interface": "interface1"
+        },
+        {
+            "channel_id": "channel7",
+            "destination_id": "node1",
+            "destination_interface": "interface1",
+            "source_id": "node10",
+            "source_interface": "interface1"
+        }
+    ],
+    "nodes": [
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node1",
+            "node_type": "router",
+            "x-coord": "5.6",
+            "y-coord": "5.4"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node2",
+            "node_type": "router",
+            "x-coord": "2.16",
+            "y-coord": "7.8"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node3",
+            "node_type": "router",
+            "x-coord": "1.03",
+            "y-coord": "1.66"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node4",
+            "node_type": "router",
+            "x-coord": "4.93",
+            "y-coord": "8.36"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node5",
+            "node_type": "client",
+            "x-coord": "6.069999999999999",
+            "y-coord": "9.629999999999999"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node6",
+            "node_type": "client",
+            "x-coord": "5.64",
+            "y-coord": "9.5"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node7",
+            "node_type": "client",
+            "x-coord": "9.53",
+            "y-coord": "0.1"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node8",
+            "node_type": "client",
+            "x-coord": "5.779999999999999",
+            "y-coord": "9.479999999999999"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node9",
+            "node_type": "server",
+            "x-coord": "6.6",
+            "y-coord": "1.1"
+        },
+        {
+            "interfaces": [
+                {
+                    "interface_id": "interface1"
+                }
+            ],
+            "node_id": "node10",
+            "node_type": "server",
+            "x-coord": "6.959999999999999",
+            "y-coord": "0.94"
+        }
+    ]
+}
