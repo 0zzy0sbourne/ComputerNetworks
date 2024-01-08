@@ -2,8 +2,6 @@ import os
 import time
 import json
 import logging
-import heapq
-import socket
 import struct
 import select
 from threading import Thread, Lock, Event
