@@ -9,6 +9,7 @@
 
 import socket
 import random # for packet loss simulation 
+import time 
 
 # CONSTANTS FOR PACKET TYPES
 HANDSHAKE = 0
@@ -20,7 +21,7 @@ FIN = 3
 HOST = '127.0.0.1'
 PORT = 12345
 BUFFER_SIZE = 1024 
-TIMEOUT = 0.1 # it's given in the project PDF 
+TIMEOUT = 0.01 # it's given in the project PDF 
 
 # window size options for testing 
 WINDOW_SIZES = [1, 10, 50, 100]
@@ -140,12 +141,9 @@ def close_connection(filename):
 
 ####### DATA RECEPTION  #######
 def receive_data(sock, window_size):
-    """
-    Implements selective repeat receiver logic.
-    Maintains a receiving window and handles out-of-order packets.
-    """
-    base = 0  # Base of the receiving window
-    received_buffer = {}  # Buffer for out-of-order packets
+    base = 0  
+    received_buffer = {}
+    expected_seq = 0
     
     while True:
         try:
@@ -153,29 +151,24 @@ def receive_data(sock, window_size):
             packet_type, seq_num, payload = decode_packet(packet)
             
             if packet_type == FIN:
-                # Handle connection termination
                 ack_packet = create_packet(ACK, seq_num)
                 unreliableSend(ack_packet, sock, addr, ERROR_RATES[0])
-                fin_packet = create_packet(FIN, seq_num + 1)
-                unreliableSend(fin_packet, sock, addr, ERROR_RATES[0])
                 break
                 
             elif packet_type == DATA:
+                # Send ACK regardless if in window
+                send_ack(sock, addr, seq_num)
+                
                 if base <= seq_num < base + window_size:
-                    # Packet is within window
                     received_buffer[seq_num] = payload
-                    send_ack(sock, addr, seq_num)
                     
                     # Deliver in-order packets
-                    while base in received_buffer:
-                        print(f"Delivering packet {base}: {received_buffer[base]}")
-                        del received_buffer[base]
-                        base += 1
+                    while expected_seq in received_buffer:
+                        print(f"Delivering packet {expected_seq}: {received_buffer[expected_seq]}")
+                        del received_buffer[expected_seq]
+                        expected_seq += 1
+                        base = expected_seq
                         
-                elif seq_num < base:
-                    # Duplicate packet, resend ACK
-                    send_ack(sock, addr, seq_num)
-                    
         except socket.timeout:
             continue
 
@@ -186,29 +179,35 @@ def send_ack(sock, addr, sequence_number):
     ack_packet = create_packet(ACK, sequence_number)
     unreliableSend(ack_packet, sock, addr, ERROR_RATES[0])
 
-def main(): 
-    ####### MAIN CLIENT LOGIC #######
+def main():
+    results = []
 
-    # init socket
-    client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    server_addr = (HOST, PORT)
+    for window_size in WINDOW_SIZES:
+        print(f"\nTesting with window size: {window_size}")
+        
+        client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        server_addr = (HOST, PORT)
+        client_socket.settimeout(TIMEOUT)
 
-    client_socket.settimeout(TIMEOUT)
+        filename = "input.txt"
 
-    filename = "input.txt"
+        if establish_connection(client_socket, server_addr, filename):
+            start_time = time.time()
+            receive_data(client_socket, window_size)
+            end_time = time.time()
+            
+            results.append({
+                'window_size': window_size,
+                'transfer_time': end_time - start_time
+            })
+            
+        client_socket.close()
+        time.sleep(1)  # Wait before next test
 
-    if not establish_connection(client_socket, server_addr, filename): 
-        print("FAILED TO ESTABLISH CONNECTION")
-        return 
-    
-    print("CONNECTION ESTABLISHED SUCCESSFULLY")
-    
-    # Add this: start receiving data after connection is established
-    print("Starting to receive data...")
-    receive_data(client_socket, WINDOW_SIZES[0])
-    
-    # Close the socket when done
-    client_socket.close()
+    # Print results
+    print("\nTest Results:")
+    for result in results:
+        print(f"Window Size: {result['window_size']}, Time: {result['transfer_time']:.2f}s")
 
 if __name__ == "__main__": 
     main()
