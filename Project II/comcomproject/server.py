@@ -30,11 +30,11 @@ FIN = 3
 HOST = '127.0.0.1'
 PORT = 12345
 BUFFER_SIZE = 1024
-TIMEOUT = 0.01  # it's given in the project PDF
+TIMEOUT = 0.0001  # it's given in the project PDF
 
 # window size options for testing
-WINDOW_SIZE = 1 # CAN TAKE VALUES OF: [1, 10, 50, 100]
-ERROR_RATE = 20 # CAN TAKE VALUES OF: [0, 1, 5, 10, 20]
+WINDOW_SIZE = 10 # CAN TAKE VALUES OF: [1, 10, 50, 100]
+ERROR_RATE = 10 # CAN TAKE VALUES OF: [0, 1, 5, 10, 20]
 
 # for window_size:1, error_rate: 10 --> time: 0.05s 
 # for window_size:1, error_rate: 20 --> time: 0.06s 
@@ -174,6 +174,11 @@ def send_file(sock, client_addr, filename):
         base = 0  
         next_seq = 0
         window = {}
+        start_time = time.time()
+        packet_tracker = {}  # {seq: {'sent_time': float, 'retries': int}}
+        rtt_samples = []
+        retransmissions = 0
+        total_packets = 0
         
         while base < len(file_content):
             while next_seq < base + WINDOW_SIZE and next_seq < len(file_content):
@@ -183,6 +188,14 @@ def send_file(sock, client_addr, filename):
                     unreliableSend(data_packet, sock, client_addr, ERROR_RATE)
                     window[next_seq] = data_packet
                     print(f"Sent packet {next_seq}")
+                    packet_tracker[next_seq] = {
+                        'sent_time': time.time(),
+                        'retries': 0
+                    }
+                else:  # Retransmission
+                    packet_tracker[next_seq]['retries'] += 1
+                    retransmissions += 1
+                total_packets += 1
                 next_seq += 1
             
             try:
@@ -202,7 +215,18 @@ def send_file(sock, client_addr, filename):
             except socket.timeout:
                 for seq in window:
                     unreliableSend(window[seq], sock, client_addr, ERROR_RATE)
-                    
+        
+         # Final calculations
+        end_time = time.time()
+        transmission_time = end_time - start_time   
+
+        # Calculate metrics
+        avg_rtt = sum(rtt_samples)/len(rtt_samples) if rtt_samples else TIMEOUT
+        unique_packets = len(file_content)
+        theoretical_max = (transmission_time / avg_rtt) * WINDOW_SIZE
+        utilization = (unique_packets / theoretical_max) * 100
+        retransmission_rate = (retransmissions / total_packets) * 100    
+        
         fin_packet = create_packet(FIN, len(file_content) % 256)
         unreliableSend(fin_packet, sock, client_addr, ERROR_RATE)
         

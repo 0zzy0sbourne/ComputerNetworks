@@ -21,11 +21,11 @@ FIN = 3
 HOST = '127.0.0.1'
 PORT = 12345
 BUFFER_SIZE = 1024 
-TIMEOUT = 0.01 # it's given in the project PDF 
+TIMEOUT = 0.0001 # it's given in the project PDF 
 
 # window size options for testing 
-WINDOW_SIZE = 1 # CAN TAKE VALUES OF: [1, 10, 50, 100]
-ERROR_RATE = 20 # CAN TAKE VALUES OF: [0, 1, 5, 10, 20]
+WINDOW_SIZE = 10 # CAN TAKE VALUES OF: [1, 10, 50, 100]
+ERROR_RATE = 10 # CAN TAKE VALUES OF: [0, 1, 5, 10, 20]
 
 ####### PACKET HANDLING FUNCTIONS  #######
 def create_packet(type, sequence_number, payload=""):
@@ -140,45 +140,14 @@ def close_connection(filename):
     pass 
 
 ####### DATA RECEPTION  #######
-"""
-def receive_data(sock, window_size):
-    base = 0  
-    received_buffer = {}
-    expected_seq = 0
-    
-    while True:
-        try:
-            packet, addr = sock.recvfrom(BUFFER_SIZE)
-            packet_type, seq_num, payload = decode_packet(packet)
-            
-            if packet_type == FIN:
-                ack_packet = create_packet(ACK, seq_num)
-                unreliableSend(ack_packet, sock, addr, ERROR_RATE)
-                break
-                
-            elif packet_type == DATA:
-                # Send ACK regardless if in window
-                send_ack(sock, addr, seq_num)
-                
-                if base <= seq_num < base + window_size:
-                    received_buffer[seq_num] = payload
-                    
-                    # Deliver in-order packets
-                    while expected_seq in received_buffer:
-                        print(f"Delivering packet {expected_seq}: {received_buffer[expected_seq]}")
-                        del received_buffer[expected_seq]
-                        expected_seq += 1
-                        base = expected_seq
-                        
-        except socket.timeout:
-            continue
-"""
 
 def receive_data(sock):
     base = 0  
     received_buffer = {}
     expected_seq = 0
     received_data = []  # Store received lines
+    start_time = time.time()  # Track actual reception start
+
     
     while True:
         try:
@@ -186,11 +155,16 @@ def receive_data(sock):
             packet_type, seq_num, payload = decode_packet(packet)
             
             if packet_type == FIN:
+                end_time = time.time()
                 # Write to file before returning
                 with open(f"received_file_err_rate{ERROR_RATE}_window_size{WINDOW_SIZE}.txt", 'w') as f:
                     f.write('\n'.join(received_data))
                 ack_packet = create_packet(ACK, seq_num)
                 unreliableSend(ack_packet, sock, addr, ERROR_RATE)
+                # Calculate throughput (packets/sec)
+                transfer_time = end_time - start_time
+                throughput = len(received_data)/transfer_time
+                print(f"\nThroughput: {throughput:.2f} packets/sec")
                 return True
                 
             elif packet_type == DATA:
