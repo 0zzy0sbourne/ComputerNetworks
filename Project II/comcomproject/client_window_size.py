@@ -24,8 +24,8 @@ BUFFER_SIZE = 1024
 TIMEOUT = 0.01 # it's given in the project PDF 
 
 # window size options for testing 
-WINDOW_SIZES = [1, 10, 50, 100]
-ERROR_RATES = [0, 1, 5, 10, 20]
+WINDOW_SIZE = 1 # CAN TAKE VALUES OF: [1, 10, 50, 100]
+ERROR_RATE = 20 # CAN TAKE VALUES OF: [0, 1, 5, 10, 20]
 
 ####### PACKET HANDLING FUNCTIONS  #######
 def create_packet(type, sequence_number, payload=""):
@@ -112,7 +112,7 @@ def establish_connection(sock, addr, filename):
     """
 
     handshake_packet = create_packet(HANDSHAKE, 0, filename)
-    unreliableSend(handshake_packet, sock, addr, ERROR_RATES[0])
+    unreliableSend(handshake_packet, sock, addr, ERROR_RATE)
 
     # Set timeout for ACK reception
     sock.settimeout(TIMEOUT)
@@ -127,7 +127,7 @@ def establish_connection(sock, addr, filename):
             
         # Send final confirmation
         ack_packet = create_packet(ACK, 0)
-        unreliableSend(ack_packet, sock, addr, ERROR_RATES[0])
+        unreliableSend(ack_packet, sock, addr, ERROR_RATE)
         return True
         
     except socket.timeout:
@@ -140,6 +140,7 @@ def close_connection(filename):
     pass 
 
 ####### DATA RECEPTION  #######
+"""
 def receive_data(sock, window_size):
     base = 0  
     received_buffer = {}
@@ -152,7 +153,7 @@ def receive_data(sock, window_size):
             
             if packet_type == FIN:
                 ack_packet = create_packet(ACK, seq_num)
-                unreliableSend(ack_packet, sock, addr, ERROR_RATES[0])
+                unreliableSend(ack_packet, sock, addr, ERROR_RATE)
                 break
                 
             elif packet_type == DATA:
@@ -171,38 +172,73 @@ def receive_data(sock, window_size):
                         
         except socket.timeout:
             continue
+"""
 
+def receive_data(sock):
+    base = 0  
+    received_buffer = {}
+    expected_seq = 0
+    received_data = []  # Store received lines
+    
+    while True:
+        try:
+            packet, addr = sock.recvfrom(BUFFER_SIZE)
+            packet_type, seq_num, payload = decode_packet(packet)
+            
+            if packet_type == FIN:
+                # Write to file before returning
+                with open(f"received_file_err_rate{ERROR_RATE}_window_size{WINDOW_SIZE}.txt", 'w') as f:
+                    f.write('\n'.join(received_data))
+                ack_packet = create_packet(ACK, seq_num)
+                unreliableSend(ack_packet, sock, addr, ERROR_RATE)
+                return True
+                
+            elif packet_type == DATA:
+                send_ack(sock, addr, seq_num)
+                
+                if base <= seq_num < base + WINDOW_SIZE:
+                    received_buffer[seq_num] = payload
+                    
+                    while expected_seq in received_buffer:
+                        line = received_buffer[expected_seq]
+                        received_data.append(line)  # Add to received data
+                        print(f"Delivering packet {expected_seq}: {line}")
+                        del received_buffer[expected_seq]
+                        expected_seq += 1
+                        base = expected_seq
+        except socket.timeout:
+            continue
+        
 def send_ack(sock, addr, sequence_number):
     """
     Creates and sends ACK packets using unreliable_send
     """
     ack_packet = create_packet(ACK, sequence_number)
-    unreliableSend(ack_packet, sock, addr, ERROR_RATES[0])
+    unreliableSend(ack_packet, sock, addr, ERROR_RATE)
 
 def main():
     results = []
 
-    for window_size in WINDOW_SIZES:
-        print(f"\nTesting with window size: {window_size}")
+    print(f"\nTesting with window size: {WINDOW_SIZE}")
+    
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    server_addr = (HOST, PORT)
+    client_socket.settimeout(TIMEOUT)
+
+    filename = "input.txt"
+
+    if establish_connection(client_socket, server_addr, filename):
+        start_time = time.time()
+        receive_data(client_socket)
+        end_time = time.time()
         
-        client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        server_addr = (HOST, PORT)
-        client_socket.settimeout(TIMEOUT)
-
-        filename = "input.txt"
-
-        if establish_connection(client_socket, server_addr, filename):
-            start_time = time.time()
-            receive_data(client_socket, window_size)
-            end_time = time.time()
-            
-            results.append({
-                'window_size': window_size,
-                'transfer_time': end_time - start_time
-            })
-            
-        client_socket.close()
-        time.sleep(1)  # Wait before next test
+        results.append({
+            'window_size': WINDOW_SIZE,
+            'transfer_time': end_time - start_time
+        })
+        
+    client_socket.close()
+    time.sleep(1)  # Wait before next test
 
     # Print results
     print("\nTest Results:")

@@ -33,8 +33,12 @@ BUFFER_SIZE = 1024
 TIMEOUT = 0.01  # it's given in the project PDF
 
 # window size options for testing
-WINDOW_SIZES = [1, 10, 50, 100]
-ERROR_RATES = [0, 1, 5, 10, 20]
+WINDOW_SIZE = 1 # CAN TAKE VALUES OF: [1, 10, 50, 100]
+ERROR_RATE = 20 # CAN TAKE VALUES OF: [0, 1, 5, 10, 20]
+
+# for window_size:1, error_rate: 10 --> time: 0.05s 
+# for window_size:1, error_rate: 20 --> time: 0.06s 
+# code starts to struggle in window_size:10, error_rate:10 config
 
 ####### PACKET HANDLING FUNCTIONS  #######
 def create_packet(type, sequence_number, payload=""):
@@ -139,7 +143,7 @@ def handle_handshake(sock):
 
         # Send ACK
         ack_packet = create_packet(ACK, 0)
-        unreliableSend(ack_packet, sock, client_addr, ERROR_RATES[0])
+        unreliableSend(ack_packet, sock, client_addr, ERROR_RATE)
         print("Sent ACK for handshake")
 
         # Wait for final confirmation
@@ -162,7 +166,7 @@ def handle_handshake(sock):
         return False, None, None
 
 ####### DATA TRANSMISSION #######
-def send_file(sock, client_addr, filename, window_size):
+def send_file(sock, client_addr, filename):
     try:
         with open(filename, 'r') as file:
             file_content = file.read().splitlines()
@@ -172,11 +176,11 @@ def send_file(sock, client_addr, filename, window_size):
         window = {}
         
         while base < len(file_content):
-            while next_seq < base + window_size and next_seq < len(file_content):
+            while next_seq < base + WINDOW_SIZE and next_seq < len(file_content):
                 seq_num = next_seq % 256
-                if next_seq - base < window_size:  # Only send if within window
+                if next_seq - base < WINDOW_SIZE:  # Only send if within window
                     data_packet = create_packet(DATA, seq_num, file_content[next_seq])
-                    unreliableSend(data_packet, sock, client_addr, ERROR_RATES[0])
+                    unreliableSend(data_packet, sock, client_addr, ERROR_RATE)
                     window[next_seq] = data_packet
                     print(f"Sent packet {next_seq}")
                 next_seq += 1
@@ -197,10 +201,10 @@ def send_file(sock, client_addr, filename, window_size):
                             base += 1
             except socket.timeout:
                 for seq in window:
-                    unreliableSend(window[seq], sock, client_addr, ERROR_RATES[0])
+                    unreliableSend(window[seq], sock, client_addr, ERROR_RATE)
                     
         fin_packet = create_packet(FIN, len(file_content) % 256)
-        unreliableSend(fin_packet, sock, client_addr, ERROR_RATES[0])
+        unreliableSend(fin_packet, sock, client_addr, ERROR_RATE)
         
         return True
         
@@ -213,30 +217,29 @@ def main():
     server_socket.bind((HOST, PORT))
     results = []
 
-    for window_size in WINDOW_SIZES:
-        print(f"\nTesting with window size: {window_size}")
-        
-        # Reset socket for each test
-        server_socket.close()
-        server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        server_socket.bind((HOST, PORT))
-        
-        success = False
-        while not success:
-            success, client_addr, filename = handle_handshake(server_socket)
-            if success:
-                start_time = time.time()
-                transfer_success = send_file(server_socket, client_addr, filename, window_size)
-                end_time = time.time()
-                
-                if transfer_success:
-                    results.append({
-                        'window_size': window_size,
-                        'transfer_time': end_time - start_time
-                    })
-                    print(f"Transfer completed in {end_time - start_time:.2f} seconds")
-            else:
-                time.sleep(0.5)  # Longer delay between retries
+    print(f"\nTesting with window size: {WINDOW_SIZE}")
+    
+    # Reset socket for each test
+    server_socket.close()
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    server_socket.bind((HOST, PORT))
+    
+    success = False
+    while not success:
+        success, client_addr, filename = handle_handshake(server_socket)
+        if success:
+            start_time = time.time()
+            transfer_success = send_file(server_socket, client_addr, filename)
+            end_time = time.time()
+            
+            if transfer_success:
+                results.append({
+                    'window_size': WINDOW_SIZE,
+                    'transfer_time': end_time - start_time
+                })
+                print(f"Transfer completed in {end_time - start_time:.2f} seconds")
+        else:
+            time.sleep(0.9)  # Longer delay between retries
 
     print("\nTest Results:")
     for result in results:

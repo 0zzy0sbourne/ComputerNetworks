@@ -130,6 +130,7 @@ def close_connection(filename):
     pass 
 
 ####### DATA RECEPTION  #######
+"""
 def receive_data(sock, window_size, error_rate):
     base = 0  
     received_buffer = {}
@@ -160,6 +161,43 @@ def receive_data(sock, window_size, error_rate):
         except socket.timeout:
             continue
 
+"""
+
+def receive_data(sock, window_size, error_rate):
+    base = 0  
+    received_buffer = {}
+    expected_seq = 0
+    received_data = []  # Store received lines
+    
+    while True:
+        try:
+            packet, addr = sock.recvfrom(BUFFER_SIZE)
+            packet_type, seq_num, payload = decode_packet(packet)
+            
+            if packet_type == FIN:
+                # Write to file before returning
+                with open('received_file.txt', 'w') as f:
+                    f.write('\n'.join(received_data))
+                ack_packet = create_packet(ACK, seq_num)
+                unreliableSend(ack_packet, sock, addr, error_rate)
+                return True
+                
+            elif packet_type == DATA:
+                send_ack(sock, addr, seq_num, error_rate)
+                
+                if base <= seq_num < base + window_size:
+                    received_buffer[seq_num] = payload
+                    
+                    while expected_seq in received_buffer:
+                        line = received_buffer[expected_seq]
+                        received_data.append(line)  # Add to received data
+                        print(f"Delivering packet {expected_seq}: {line}")
+                        del received_buffer[expected_seq]
+                        expected_seq += 1
+                        base = expected_seq
+        except socket.timeout:
+            continue
+        
 def send_ack(sock, addr, sequence_number, err_rate):
     """
     Creates and sends ACK packets using unreliable_send
